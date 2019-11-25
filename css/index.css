@@ -1,0 +1,728 @@
+.body {
+	width: 100%;
+	height: 52rem;
+}
+
+/* -  nav ------------------------------------------------------- */
+#index-nav {
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	/* top: 40px; */
+	background: rgba(35, 38, 46, 0.5);
+	padding: 0;
+	text-align: -webkit-right;
+	z-index: 10;
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	-o-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+#index-nav li {
+	display: inline-block;
+	margin-left: 25px;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+}
+
+#index-nav li a {
+	position: relative;
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 25%;
+	/* background-color: #009E94; */
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#index-nav li a:hover,
+#index-nav li.active a {
+	color: #fff;
+	border-bottom: 3px #fff solid;
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+/* section ...............................................*/
+.section {
+	/* text-align: center; */
+	font: 50px "Microsoft Yahei";
+	color: #fff;
+	height: 52rem;
+}
+
+/* .section p{
+	font: 25px "Microsoft Yahei";
+	} */
+
+/* 文字............................................................. */
+.mask {
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	/* background: #222222; */
+	/* background: url(../img/index.jpg) center;
+	background-size: 100% 100%; */
+}
+
+.mask-pic {
+	width: 100%;
+	height: 100%;
+}
+
+/* 提示语 */
+.heit {
+	display: none;
+}
+
+.heit-bottom {
+	display: none;
+}
+
+.heit {
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	z-index: 1;
+}
+
+.heit a {
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.heit-line {
+	width: 2px;
+	height: 25px;
+	border: 1px #fff solid;
+	margin-left: 50%;
+}
+
+.heit-bottom {
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	z-index: 1;
+}
+
+.heit-bottom a {
+	color: #fff;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+.intro-text {
+	font-size: 6.75rem;
+}
+
+/* logo................................................ */
+
+.logo {
+	position: fixed;
+	top: 6px;
+	left: 40px;
+	z-index: 11;
+	width: 80px;
+	height: 100px;
+	overflow: hidden;
+	background: url(../img/LOGO-white.png) center;
+	background-size: 100% 100%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+/* .logo a {
+	display: block;
+	width: 80px;
+	height: 100px;
+	overflow: hidden;
+	background: url(../img/LOGO-white.png) center;
+	background-size: 100% 100%; */
+/* background-position: center top; */
+/* -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	text-indent: -9999px;
+} */
+
+.vido {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.intro-animated {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	line-height: 1.8;
+}
+
+/* 核心技术................................................ */
+/* .display {
+	display: none;
+}
+
+#all-algorithm {
+	display: none;
+}
+
+.technology-top {
+	width: 100%;
+	height: 5.25rem;
+	float: left;
+	position: absolute;
+	top: 8%;
+}
+
+.technology-bottom {
+	width: 100%;
+	height: 66rem;
+	float: left;
+	position: absolute;
+	top: 12%;
+}
+
+.technology-classification {
+	width: 100%;
+	height: 63rem;
+}
+
+.technology-classification1 {
+	width: 20.5%;
+	height: 25rem;
+	margin-left: 4%;
+	margin-top: 3%;
+}
+ */
+.technology-pic {
+	width: 100%;
+	height: 100%;
+}
+
+/* 核心技术 */
+.move-technology {
+	display: none;
+}
+
+.swiper-wrapper {
+	width: 100%;
+	height: 50rem;
+}
+
+.swiper-slide {
+	text-align: center;
+	margin-top: 1%;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	transition: 300ms;
+	transform: scale(0.8);
+}
+
+.swiper-slide-active,
+.swiper-slide-duplicate-active {
+	transform: scale(1);
+}
+
+.swiper-pagination-bullets {
+	bottom: 10px;
+	left: 0;
+	width: 100%;
+}
+
+.technology-color {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(128, 128, 128, 0.3);
+}
+
+.technology-text-one {
+	font-size: 3rem;
+}
+
+.technology-strip {
+	position: absolute;
+	width: 100%;
+	height: 14%;
+	text-align: center;
+	padding: 1% 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 50%;
+}
+
+/* 应用案例............................................... */
+/* .white{
+	color: #fff;
+	text-align: center;
+} */
+.fp-controlArrow.fp-next {
+	right: 2.7rem;
+}
+
+.fp-controlArrow.fp-prev {
+	left: 2.5rem;
+}
+
+.case-factory {
+	width: 100%;
+	height: 100%;
+	background: url(../img/zhongshiyou.jpg) center;
+	background-size: 100% 100%;
+}
+
+.case-military {
+	width: 100%;
+	height: 100%;
+	background: url(../img/huananguangdian.jpg) center;
+	background-size: 100% 100%;
+}
+
+.case-construction {
+	width: 100%;
+	height: 100%;
+	background: url(../img/guojiadianwang.jpg)center;
+	background-size: 100% 100%;
+}
+
+.case-circle {
+	width: 45%;
+	height: 50%;
+	text-align: center;
+	/* background: #C0C4CC; */
+	/* opacity: 0.3;
+	border-radius: 100%; */
+	padding-top: 100px;
+	/* margin-left: 60px; */
+	z-index: 5;
+}
+
+.case-rectangle {
+	width: 650px;
+	height: 250px;
+	background-color: rgba(192, 196, 204, 0.5);
+	margin-left: 60%;
+	margin-top: 80px;
+	padding: 20px 51px;
+}
+
+.case-text {
+	text-indent: 2em;
+	font-size: 25px;
+	font-family: "幼圆";
+}
+
+.text-p {
+	font-size: 25px;
+}
+
+/* 关于广景.......................................................... */
+.about-global {
+	width: 33%;
+	height: 49rem;
+	float: left;
+	/* background-color:#fff; */
+	margin-left: 0.3%;
+}
+
+/* 蒙版 */
+.about-mask {
+	width: 100%;
+	height: 49rem;
+	background: rgba(192, 192, 192, 0.3);
+}
+
+.about-mask:hover {
+	width: 100%;
+	height: 49rem;
+	background: rgba(192, 192, 192, 0);
+}
+
+/* 文字 */
+.mask-text {
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+/* 公司简介 */
+.about-left {
+	width: 100%;
+	height: 49rem;
+	position: relative;
+	transition: .5s;
+	float: left;
+	/* background-color: darkred; */
+	background: url(../img/gongsijianjie.jpg) center;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+
+.about-left:hover {
+	width: 120%;
+	height: 49rem;
+}
+
+/* 品牌文化 */
+.about-center {
+	width: 100%;
+	height: 49rem;
+	position: relative;
+	transition: .5s;
+	margin: 0 auto;
+	/* background-color: green; */
+	background: url(../img/pinpaiwenhua.jpg) center;
+	background-size: 100% 100%;
+}
+
+.about-center:hover {
+	width: 155%;
+	height: 49rem;
+	z-index: 2;
+	margin-left: -50%;
+	display: inline-block !important;
+	display: inline;
+}
+
+/* 团队介绍 */
+.about-right {
+	width: 100%;
+	height: 49rem;
+	position: relative;
+	transition: .5s;
+	float: right;
+	/* background-color: blueviolet; */
+	background: url(../img/tuandui.jpg) center;
+	background-size: 100% 100%;
+	z-index: 1;
+}
+
+.about-right:hover {
+	width: 120%;
+	height: 49rem;
+}
+
+.mask-text {
+	padding-top: 50%;
+	padding-left: 20%;
+}
+
+.display {
+	display: none;
+}
+
+.about-behind {
+	width: 100%;
+	height: 49rem;
+	background: #007AFF;
+}
+
+/* 关于广景移动端 */
+.about-front {
+	display: inline;
+}
+
+.mobile {
+	display: none;
+}
+
+.mobile {
+	border: 1px solid #fff;
+	width: 100%;
+	height: 50%;
+	float: left;
+	overflow: auto;
+}
+
+.mobile-about {
+	/*设置内部嵌套的div宽度（大于外部div宽度）*/
+	width: 400%;
+}
+
+/* 媒体动态 .................................*/
+.join-in {
+	width: 60%;
+	height: 60%;
+	/* background-color: #982016; */
+	margin-left: 20%;
+	margin-top: 4%;
+}
+
+.join-pic {
+	width: 100%;
+	height: 100%;
+}
+
+/* 共同的................. */
+.mask-text a {
+	color: #fff;
+}
+
+.black {
+	color: #fff;
+}
+
+.black:hover {
+	color: #982016;
+}
+
+.text-black {
+	color: #1B1C23;
+	margin-top: 10%;
+	font-size: 20px;
+}
+
+.black-text {
+	color: #1B1C23;
+	text-indent: 2em;
+	font-size: 25px;
+	padding: 10px;
+}
+
+.time-text {
+	color: #000000;
+	font-size: 1.68rem;
+}
+
+/* 加入我们----------------------------------------*/
+/* 名片 */
+.visitingCard {
+	width: 100%;
+	height: 27rem;
+	/* background-color: #fff; */
+	margin-top: 5%;
+}
+
+.code {
+	width: 23%;
+	height: 100%;
+	margin-left: 38%;
+}
+
+/* 地址 */
+.site {
+	width: 100%;
+	height: 27.5rem;
+	background-color: #000000;
+}
+
+.site-text-top {
+	text-align: center;
+	padding-top: 3%;
+}
+
+.site-text-bottom {
+	text-align: center;
+	padding-top: 2%;
+	font-size: 30px;
+}
+
+@media screen and (min-width:320px) and (max-width:375px) {
+	#fp-nav {
+		display: none;
+	}
+
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 30%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+
+	.code {
+		width: 50%;
+		height: 100%;
+		margin-left: 27%;
+	}
+
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+	}
+
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
+	}
+
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: ##fff;
+	}
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {
+	#fp-nav {
+		display: none;
+	}
+
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 25%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+
+	.code {
+		width: 50%;
+		height: 100%;
+		margin-left: 25%;
+	}
+
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+		margin-top: ;
+	}
+
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
+	}
+
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+	#fp-nav {
+		display: none;
+	}
+
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 30%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+
+	.code {
+		width: 60%;
+		height: 100%;
+		margin-left: 20%;
+	}
+
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+	}
+
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
+	}
+
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	#fp-nav {
+		display: none;
+	}
+
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 35%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+
+	.code {
+		width: 40%;
+		height: 100%;
+		margin-left: 30%;
+	}
+
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+		margin-top: ;
+	}
+
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 3rem;
+		color: #fff;
+	}
+
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 2rem;
+		color: #fff;
+	}
+}

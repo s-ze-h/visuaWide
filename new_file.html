@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>无标题文档</title>
+		<style>
+			body {
+margin: 7px;
+font:12px Verdana, Arial, Helvetica, sans-serif;
+}
+* {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+border: thin none;
+}
+#nav {
+position: absolute;
+font-size: 9px;
+opacity: 0.8;
+}
+#nav a {
+display: block;
+width: 100px;
+height: 15px;
+padding: 3px 5px 12px;
+background: #666;
+color: #fff;
+text-decoration: none;
+}
+#nav a:hover {
+background: #333;
+}
+#nav li {
+float: left;
+clear: left;
+width: 120px;
+background: #ccc;
+padding-bottom: 3px;
+}
+#nav ul {
+position: absolute;
+margin-left: 115px;
+margin-top: -30px;
+}
+#nav ul {
+display: none;
+}
+#nav li.show ul {
+display: block;
+}
+#nav li.show li ul {
+display: none;
+}
+#nav li li.show ul {
+display: block;
+}
+.pull-menu{
+	width: 100%;
+	height: 100%;
+}
+.technology-pic{
+	width: 100%;
+}
+.display{
+	display: none;
+}
+</style>
+		<script language="javascript" type="text/javascript">
+			function menuFix() {
+				//获取页面ID为‘nav’下边的所有li标签，返回一个数组
+				var sfEls = document.getElementById("nav").getElementsByTagName("li");
+				//循环遍历这些li标签
+				for (var i = 0; i < sfEls.length; i++) {
+					//注册鼠标移到该li标签上的事件
+					sfEls[i].onmouseover = function() {
+						this.className += (this.className.length > 0 ? " " : "") + "show";
+					}
+					//注册鼠标移开该li标签的事件
+					sfEls[i].onmouseout = function() {
+						this.className = this.className.replace(new RegExp("( ?|^)show\\b"), "");
+					}
+				}
+			}
+			window.onload = menuFix;
+		</script>
+	</head>
+	<body>
+		<ul id="nav">
+			<li><a href="javascript:;">全部算法</a>
+				<ul>
+					<li><a href="javascript:;">人员检测类</a>
+						<ul>
+							<li><a href="image" class="pull">安全帽识别</a></li>
+							<li><a href="javascript:;" class="pull">服装识别</a></li>
+							<li><a href="javascript:;" class="pull">人流密度检测</a></li>
+							<li><a href="javascript:;" class="pull">脱岗检测</a></li>
+							<li><a href="javascript:;" class="pull">闯入检测</a></li>
+							<li><a href="javascript:;" class="pull">吸烟识别</a></li>
+							<li><a href="javascript:;" class="pull">打手机识别</a></li>
+							<li><a href="javascript:;" class="pull">行为识别</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:;">视频分析类</a>
+						<ul>
+							<li><a href="javascript:;" class="pull">明火识别</a></li>
+							<li><a href="javascript:;" class="pull">烟雾识别</a></li>
+							<li><a href="javascript:;" class="pull">安全通道异常识别</a></li>
+							<li><a href="javascript:;" class="pull">船舶闯入监测</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:;">人脸识别类</a>
+						<ul>
+							<li><a href="javascript:;" class="pull">情绪识别</a></li>
+							<li><a href="javascript:;" class="pull">人脸比对</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:;">文字识别类</a>
+						<ul>
+							<li><a href="javascript:;" class="pull">车牌识别</a></li>
+							<li><a href="javascript:;" class="pull">身份证识别</a></li>
+							<li><a href="javascript:;" class="pull">银行卡识别</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<div class="pull-menu">
+			<div class="image display" id="image">
+				<img class="technology-pic" src="img/SafetyHelmet.jpg" alt="安全帽识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/MigrantWorkersToTdentify.jpg" alt="服装识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/TrafficDensity.jpg" alt="人流密度检测">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/TakeOffHillockDetection.jpg" alt="脱岗检测">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/PeopleBrokeInto.jpg" alt="闯入检测">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/SmokingIdentification.jpg" alt="吸烟识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/MobilePhoneRecognition.jpg" alt="打手机识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/BehaviorRecognition.jpg" alt="行为识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/FlameRecognition.jpg" alt="明火识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/SmokeRecognition.jpg" alt="明火识别">                                                                                                                               g" alt="烟雾识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/SafetyChannelException.jpg" alt="安全通道异常识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/ShipBrokeInto.jpg" alt="船舶闯入监测">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/EmotionRecognition.jpg" alt="情绪识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/ThefaceContrast.jpg" alt="人脸比对">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/licensePlate.jpg" alt="车牌识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/IdentityCardIdentification.jpg" alt="身份证识别">
+			</div>
+			<div class="image display" >
+				<img class="technology-pic" src="img/BankCardIdentification.jpg" alt="银行卡识别">
+			</div>
+		</div>
+	</body>
+	
+</html>

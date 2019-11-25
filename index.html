@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>广景视觉</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/layui.mobile.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+		<link rel="shortcut icon" href="favicon.ico">
+		<link href="css/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/css/font-awesome.css" rel="stylesheet">
+		<link href="css/css/blueimp-gallery.min.css" rel="stylesheet">
+		<link href="css/css/animate.css" rel="stylesheet">
+		<link href="css/css/style.css" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="main-header">
+			<a href="javascript:;" class="nav-trigger"><span></span></a>
+			<div class="logo animated">
+			</div><!-- logo 结束 -->
+			<ul id="index-nav" class="index-nav">
+				<li data-menuanchor="intro" class="active"><a href="#intro">首页</a></li>
+				<li data-menuanchor="technology"><a href="#technology">核心技术</a></li>
+				<li data-menuanchor="case"><a href="#case">应用案例</a></li>
+				<li data-menuanchor="about"><a href="#about">关于广景</a></li>
+				<!-- <li data-menuanchor="dynamic"><a href="#dynamic">媒体动态</a></li> -->
+				<li data-menuanchor="join"><a href="#join">加入我们</a></li>
+			</ul><!-- 导航栏 结束 -->
+		</div>
+		<div id="fullPage">
+			<div class="section intro">
+				<!-- 面部模型 -->
+				<div class="mask">
+					<img class="mask-pic" src="img/shouyetu.jpg">
+					<!-- <div class="logo animated">
+						<a href="index.html">广景视觉</a>
+					</div> -->
+					<!-- logo 结束 -->
+					<div class="vido text-center">
+						<!-- <h1 class="intro-text animated flash fadeInDown" data-animation="fadeInDown"><i>VisualWide</i></h1>
+						<p class="intro-animated animated flash bounceInUp" data-animation="bounceInUp">广景视觉</p>
+						<p class="intro-animated animated flash bounceInUp" data-animation="bounceInUp">用AI守护每一份安全</p> -->
+					</div><!-- 面部文字 结束 -->
+					<div class="heit">
+						<a class="intro-animated animated flash bounceInUp" data-animation="bounceInUp" href="#technology">上滑</a>
+						<div class="heit-line intro-animated animated flash bounceInUp" data-animation="bounceInUp"></div>
+					</div>
+				</div><!-- 面部模型 结束 -->
+			</div>
+			<!-- 核心技术 -->
+			<div class="section  technology">
+				<!-- Swiper -->
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">安全帽识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SafetyHelmet.jpg" alt="安全帽识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">服装识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/MigrantWorkersToTdentify.jpg" alt="服装识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">人流密度检测</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/TrafficDensity.jpg" alt="人流密度检测">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">脱岗检测</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/TakeOffHillockDetection.jpg" alt="脱岗检测">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">闯入检测</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/PeopleBrokeInto.jpg" alt="闯入检测">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">吸烟识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SmokingIdentification.jpg" alt="吸烟识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">打手机识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/MobilePhoneRecognition.jpg" alt="打手机识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">行为识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/BehaviorRecognition.jpg" alt="行为识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">明火识别</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/FlameRecognition.jpg" alt="明火识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">烟雾识别</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SmokeRecognition.jpg" alt="烟雾识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">安全通道异常识别</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SafetyChannelException.jpg" alt="安全通道异常识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">船舶闯入监测</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/ShipBrokeInto.jpg" alt="船舶闯入监测">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">情绪识别</p>
+									<p class="technology-text-two">人脸识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/EmotionRecognition.jpg" alt="情绪识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">人脸比对</p>
+									<p class="technology-text-two">人脸识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/ThefaceContrast.jpg" alt="人脸比对">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">车牌OCR</p>
+									<p class="technology-text-two">文字识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/licensePlate.jpg" alt="车牌识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">身份证OCR</p>
+									<p class="technology-text-two">文字识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/IdentityCardIdentification.jpg" alt="身份证识别">
+						</div>
+						<div class="swiper-slide">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">银行卡OCR</p>
+									<p class="technology-text-two">文字识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/BankCardIdentification.jpg" alt="银行卡识别">
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+				<!-- 移动端 -->
+				<div class="move-technology">
+					<div class="dropdown menu">
+						<button type="button" class="btn dropdown-toggle" id="dropdownMenu" data-toggle="dropdown">
+							全部算法
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">安全帽识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">服装识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">人流密度检测</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">脱岗检测</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">闯入检测</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">吸烟识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">打手机识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">行为识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">明火识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">烟雾识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">安全通道异常识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">船舶闯入监测</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">情绪识别</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">人脸比对</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">车牌OCR</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">身份证OCR</a>
+							</li>
+							<li role="presentation">
+								<a role="menuitem" tabindex="-1" class="pull">银行卡OCR</a>
+							</li>
+						</ul>
+					</div>
+					<div class="pull-menu">
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">安全帽识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SafetyHelmet.jpg" alt="安全帽识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">服装识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/MigrantWorkersToTdentify.jpg" alt="服装识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">人流密度检测</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/TrafficDensity.jpg" alt="人流密度检测">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">脱岗检测</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/TakeOffHillockDetection.jpg" alt="脱岗检测">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">闯入检测</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/PeopleBrokeInto.jpg" alt="闯入检测">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">吸烟识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SmokingIdentification.jpg" alt="吸烟识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">打手机识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/MobilePhoneRecognition.jpg" alt="打手机识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">行为识别</p>
+									<p class="technology-text-two">人员检测类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/BehaviorRecognition.jpg" alt="行为识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">明火识别</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/FlameRecognition.jpg" alt="明火识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">烟雾识别</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SmokeRecognition.jpg" alt="明火识别"> g" alt="烟雾识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">安全通道异常识别</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/SafetyChannelException.jpg" alt="安全通道异常识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">船舶闯入监测</p>
+									<p class="technology-text-two">视频分析类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/ShipBrokeInto.jpg" alt="船舶闯入监测">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">情绪识别</p>
+									<p class="technology-text-two">人脸识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/EmotionRecognition.jpg" alt="情绪识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">人脸比对</p>
+									<p class="technology-text-two">人脸识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/ThefaceContrast.jpg" alt="人脸比对">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">车牌识别</p>
+									<p class="technology-text-two">文字识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/licensePlate.jpg" alt="车牌识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">身份证识别</p>
+									<p class="technology-text-two">文字识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/IdentityCardIdentification.jpg" alt="身份证识别">
+						</div>
+						<div class="image">
+							<div class="technology-color">
+								<div class="technology-strip">
+									<p class="technology-text-one">银行卡识别</p>
+									<p class="technology-text-two">文字识别类</p>
+								</div>
+							</div>
+							<img class="technology-pic" src="img/BankCardIdentification.jpg" alt="银行卡识别">
+						</div>
+					</div>
+				</div>
+				<!-- 移动端 结束 -->
+				<div class="heit">
+					<a class="intro-animated animated flash bounceInUp" data-animation="bounceInUp" href="#case">上滑</a>
+					<div class="heit-line intro-animated animated flash bounceInUp" data-animation="bounceInUp"></div>
+				</div>
+			</div><!-- 核心技术 结束 -->
+			<!-- 应用案例 -->
+			<div class="section  case">
+				<!-- 中石油 -->
+				<div class="slide">
+					<div class="case-factory">
+						<div class="case-circle">
+							<h7 class=" white animated flash radelnRight" data-animation="radelnRight">智慧厂区</h7>
+							<p class="text-p">智能视觉识别算法加成，精准把控危险点，不留安全隐患</p>
+						</div>
+						<div class="case-rectangle">
+							<p class="case-text">广景视觉为中国石油在加油站原有的监控系统上，添加先进的视觉识别技术，打造平台+算法的概念。从利旧、赋能、预警、管控、报告五个方面，充分利用原有资源,全方位监测识别监控区域内人员的不安全行为及危险源和安全隐患。再将各个分站点的数据信息实时在总部展示，提升企业管理水平。</p>
+						</div>
+					</div>
+				</div><!-- 中石油 结束 -->
+				<!-- 国家电网 -->
+				<div class="slide">
+					<div class="case-military">
+						<div class="case-circle">
+							<h7 class=" white animated flash radelnRight" data-animation="radelnRight">智慧军工</h7>
+							<p class="text-p">提前预估并消除安全隐患，让预防大于整改</p>
+						</div>
+						<div class="case-rectangle">
+							<p class="case-text">广景视觉为华南光电提供了先进的智能视觉识别算法，从人的不安全行为和物的不安全状态两个方面进行智能安全管控。能精准识别忽视个人防护用品、吸烟、打手机、违规闯入、奔跑打闹等危险行为，以及明烟明火、火工区作业、行吊作业等产生的安全隐患，及时告警预防，真正做到防患于未然。</p>
+						</div>
+					</div>
+				</div><!-- 国家电网 结束 -->
+				<!-- 华南光电 -->
+				<div class="slide">
+					<div class="case-construction">
+						<div class="case-circle">
+							<h7 class=" white animated flash radelnRight" data-animation="radelnRight">智慧建设</h7>
+							<p class="text-p">颠覆传统安全管理方式，让安全管理更加智能高效</p>
+						</div>
+						<div class="case-rectangle">
+							<p class="case-text">针对建管资源压力大，安全隐患无法提前预估等问题，广景视觉联合国家电网基建部共同打造数据价值应用平台。通过平台互联，完成基本数据导入；通过物联感知，实现现场信息自动实时反馈；通过建立风险识别库，实现风险识别及风险管控。全方位监测忽视个人防护用品、吸烟、打手机等不安全行为，自动告警提醒，减少人力成本，让安全管理更加智能高效。</p>
+						</div>
+					</div>
+				</div><!-- 华南光电 结束 -->
+				<div class="heit">
+					<a class="intro-animated animated flash bounceInUp" data-animation="bounceInUp" href="#about">上滑</a>
+					<div class="heit-line intro-animated animated flash bounceInUp" data-animation="bounceInUp"></div>
+				</div>
+			</div><!-- 应用案例 结束 -->
+			<!-- 关于广景 -->
+			<div class="section  about">
+				<!-- 关于广景页面 -->
+				<div class="about-front">
+					<!-- 公司简介 -->
+					<div class="about-global">
+						<div class="about-left">
+							<div class="about-mask">
+								<div class="mask-text">
+									<h2><a href="company.html">公司简介</a></h2>
+								</div>
+							</div>
+						</div>
+					</div><!-- 公司简介 结束 -->
+					<!-- 品牌文化 -->
+					<div class="about-global">
+						<div class="about-center">
+							<div class="about-mask">
+								<div class="mask-text">
+									<h2>品牌文化</h2>
+									<p class="text-black"> 专注安全生产</p>
+									<p class="text-black">开启智能安防新时代</p>
+								</div>
+							</div>
+						</div>
+					</div><!-- 品牌文化 结束 -->
+					<!-- 团队介绍 -->
+					<div class="about-global">
+						<div class="about-right">
+							<div class="about-mask">
+								<div class="mask-text">
+									<h2><a href="intro.html">团队介绍</a></h2>
+								</div>
+							</div>
+						</div>
+					</div><!-- 团队介绍 结束 -->
+				</div><!-- 关于广景页面 结束 -->
+				<!-- 移动端 -->
+				<div class="mobile">
+					<div class="mobile-about">
+						<!-- 公司简介 -->
+						<div class="about-global">
+							<div class="about-left">
+								<div class="about-mask">
+									<div class="mask-text">
+										<h2><a href="company.html">公司简介</a></h2>
+									</div>
+								</div>
+							</div>
+						</div><!-- 公司简介 结束 -->
+						<!-- 品牌文化 -->
+						<div class="about-global">
+							<div class="about-center">
+								<div class="about-mask">
+									<div class="mask-text">
+										<h2>品牌文化</h2>
+										<p class="text-black"> 专注安全生产</p>
+										<p class="text-black">开启智能安防新时代</p>
+									</div>
+								</div>
+							</div>
+						</div><!-- 品牌文化 结束 -->
+						<!-- 团队介绍 -->
+						<div class="about-global">
+							<div class="about-right">
+								<div class="about-mask">
+									<div class="mask-text">
+										<h2><a href="about.html">团队介绍</a></h2>
+									</div>
+								</div>
+							</div>
+						</div><!-- 团队介绍 结束 -->
+						<!-- 关于广景页面 结束 -->
+
+					</div>
+				</div>
+				<div class="heit-bottom">
+					<a class="intro-animated animated flash bounceInUp" data-animation="bounceInUp" href="#join">上滑</a>
+					<div class="heit-line intro-animated animated flash bounceInUp" data-animation="bounceInUp"></div>
+				</div>
+			</div><!-- 关于广景 结束 -->
+
+			<!-- 媒体动态 -->
+			<!-- <div class="section  dynamic">
+		    <h3>媒体动态</h3>
+		  </div> -->
+			<!-- 媒体动态 结束 -->
+
+			<div class="section  join">
+				<div class="visitingCard"><img class="code" src="img/code.jpg"></div>
+				<div class="site">
+					<p class="site-text-top">JOIN US</p>
+					<p class="site-text-bottom">北京市海淀区中关村东路18号财智国际大厦B座305</p>
+				</div>
+				<div class="heit">
+					<a class="intro-animated animated flash bounceInUp" data-animation="bounceInUp" href="#join">到底啦</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.fullPage.js"></script>
+	<script src="js/layui.js"></script>
+	<script src="js/layui.all.js"></script>
+	<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+		$(function() {
+			$('#fullPage').fullpage({
+				anchors: ['intro', 'technology', 'case', 'about', 'join'], //定义锚链接
+				sectionsColor: ['#222222', '#222222', '#222222', '#222222', '#222222'],
+				scrollingSpeed: 1000, //滚动速度
+				css3: true, //是否使用CSS3 transforms来实现滚动效果
+				easingcss3: 'ease', //定义页面section滚动过渡效果
+				menu: '#index-nav', //绑定菜单
+				navigation: true, //是否显示导航
+				controlArrow: false, //定义是否通过箭头来控制slide
+				slidesNavigation: true, //是否显示横向幻灯片的导航
+				slidesNavPosition: 'bottom', //横向幻灯片位置
+				normalScrollElements: '#cboxLoadedContent,#cboxOverlay', //避免自动滚动，滚动时的一些元素
+				navigationTooltips: ['index', 'technology', 'case', 'about', 'join'], //导航小圆点的提示
+			});
+			$(".nav-trigger").click(function() {
+				$("#index-nav,.nav-trigger").toggleClass("nav-is-visible");
+			});
+
+			//进入后显示一张图片
+			$('.image').eq(0).siblings().css({
+				display: 'none'
+			});
+			//第二页下拉点击
+			$('.pull').click(function() {
+				//获取到点击的下标
+				let pullIndex = $('.pull').index(this);
+				//显示对应下标的图片
+				$('.image').eq(pullIndex).css({
+					display: 'block'
+				});
+				//其他图片隐藏
+				$('.image').eq(pullIndex).siblings().css({
+					display: 'none'
+				});
+			});
+		});
+	</script>
+
+	<script>
+		function first() {
+			document.getElementById("caidan").style.display = "none";
+		}
+		var count = 0;
+
+		function show() {
+			count++;
+			if (count == 1) {
+				document.getElementById("caidan").style.display = "block";
+			} else {
+				document.getElementById("caidan").style.display = "none";
+				count = 0;
+			}
+
+		}
+	</script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			slidesPerView: 3,
+			spaceBetween: 30,
+			centeredSlides: true,
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+		});
+	</script>
+</html>

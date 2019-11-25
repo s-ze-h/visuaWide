@@ -1,0 +1,227 @@
+body {
+	background: #000000;
+}
+
+.about {
+	width: 100%;
+	height: 46rem;
+	margin-top: 5%;
+	/* background-color: #fff; */
+}
+
+.about-name {
+	width: 20%;
+	height: 28rem;
+	/* background-color: #008000; */
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.about-pic {
+	width: 100%;
+	height: 100%;
+}
+
+.about-text {
+	width: 20%;
+	height: 30rem;
+	/* background-color: #00FFFF; */
+	float: left;
+	margin-left: 2%;
+	margin-top: 5%;
+	color: #fff;
+}
+
+.team-text {
+	font-size: 20px;
+}
+
+.return a {
+	color: #fff;
+	font-family: "楷体";
+	font-size: 25px;
+}
+@media screen and (min-width:320px) and (max-width:375px) {
+	.about-name {
+		width: 70%;
+		height: 15rem;
+		/* background-color: #008000; */
+		/* float: left; */
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+	.about-text {
+		width: 100%;
+		height: 20rem;
+		/* background-color: #00FFFF; */
+		/* float: left; */
+		margin-left: 2%;
+		margin-top: 5%;
+		color: #fff;
+	}
+	.team-text {
+		font-size: 15px;
+	}
+	
+}
+@media screen and (min-width:375px) and (max-width:425px) {
+	.about-name {
+		width: 70%;
+		height: 19rem;
+		/* background-color: #008000; */
+		/* float: left; */
+		margin-left: 15%;
+		margin-top: 5%;
+	}
+	.about-text {
+		width: 90%;
+		height: 20rem;
+		/* background-color: #00FFFF; */
+		/* float: left; */
+		margin-left: 5%;
+		margin-top: 5%;
+		color: #fff;
+	}
+	.team-text {
+		font-size: 16px;
+	}
+}
+@media screen and (min-width:425px) and (max-width:768px) {
+	.about-name {
+		width: 60%;
+		height: 19rem;
+		/* background-color: #008000; */
+		/* float: left; */
+		margin-left: 15%;
+		margin-top: 10%;
+	}
+	.about-text {
+		width: 90%;
+		height: 20rem;
+		/* background-color: #00FFFF; */
+		/* float: left; */
+		margin-left: 5%;
+		margin-top: 5%;
+		color: #fff;
+	}
+	.team-text {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+	.about-name {
+		width: 40%;
+		height: 19rem;
+		/* background-color: #008000; */
+		float: left;
+		margin-left: 0%;
+		margin-top:6%;
+	}
+	.about-text {
+		width: 40%;
+		height: 20rem;
+		/* background-color: #00FFFF; */
+		/* float: left; */
+		margin-left: 5%;
+		margin-top: 5%;
+		color: #fff;
+	}
+	.team-text {
+		font-size: 15px;
+	}
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+	.about-name {
+		width: 40%;
+		height: 28rem;
+		/* background-color: #008000; */
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+	
+	.about-text {
+		width: 50%;
+		height: 30rem;
+		/* background-color: #00FFFF; */
+		float: left;
+		margin-left: 2%;
+		margin-top: 5%;
+		color: #fff;
+	}
+	
+	.team-text {
+		font-size: 25px;
+	}
+	
+	.return a {
+		color: #fff;
+		font-family: "楷体";
+		font-size: 35px;
+	}
+}
+@media screen and (min-width:1440px) and (max-width:1535px) {
+	.about-name {
+		width:30%;
+		height: 38rem;
+		/* background-color: #008000; */
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+	
+	.about-text {
+		width: 60%;
+		height: 40rem;
+		/* background-color: #00FFFF; */
+		float: left;
+		margin-left: 2%;
+		margin-top: 5%;
+		color: #fff;
+	}
+	.about-text h2{
+		font-size: 45px;
+	}
+	.team-text {
+		font-size: 35px;
+	}
+	
+	.return a {
+		color: #fff;
+		font-family: "楷体";
+		font-size: 45px;
+	}
+}
+@media screen and (min-width:1536px) and (max-width:1900px) {
+	.about-name {
+		width:30%;
+		height: 38rem;
+		/* background-color: #008000; */
+		float: left;
+		margin-left: 5%;
+		margin-top: 5%;
+	}
+	
+	.about-text {
+		width: 60%;
+		height: 40rem;
+		/* background-color: #00FFFF; */
+		float: left;
+		margin-left: 2%;
+		margin-top: 5%;
+		color: #fff;
+	}
+	.about-text h2{
+		font-size: 45px;
+	}
+	.team-text {
+		font-size: 35px;
+	}
+	
+	.return a {
+		color: #fff;
+		font-family: "楷体";
+		font-size: 45px;
+	}
+}

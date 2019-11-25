@@ -1,0 +1,1360 @@
+@media screen and (min-width:320px) and (max-width:375px) {
+
+	/* logo--------------------- */
+	.logo {
+		position: fixed;
+		width: 60px;
+		height: 80px;
+		top: 5px;
+		left: 5px;
+		z-index: 10;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+
+	/* 提示 */
+	.heit {
+		display: inline;
+	}
+
+	.heit-bottom {
+		display: inline;
+	}
+
+	/* nav.................... */
+	.index-nav {
+		display: none;
+	}
+
+	.move-technology {
+		display: inline;
+	}
+
+	.navbar.main {
+		position: absolute;
+		top: 35px;
+		z-index: 2;
+		background-color: rgba(0, 0, 0, 0.4);
+	}
+
+
+	/* 首页 */
+	.mask-pic {
+		width: 100%;
+		height: 20%;
+		position: absolute;
+		top: 40%;
+	}
+
+	.intro-text {
+		font-size: 35px;
+	}
+
+	.intro-animated {
+		font-size: 25px;
+	}
+
+	/* 核心技术 */
+	.move-technology{
+		display: inline;
+	}
+	.swiper-container {
+		display: none;
+	}
+	.btn{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.btn:hover{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.pull-menu{
+		height: 380px;
+		width: 100%;
+	}
+	.pull-menu div img{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.menu{
+		position: absolute;
+		right: 50px;
+		top: -10px;
+	}
+	.technology-strip {
+	    height: 60px;
+	}
+	.technology-text-one{
+		font-size: 15px;
+	}
+	.technology-text-two{
+		font-size: 15px;
+	}
+	/* 应用案例	 */
+	.white {
+		font-size: 20px;
+	}
+
+	.text-p {
+		font-size: 10px;
+	}
+
+	.case-circle {
+		width: 45%;
+		height: 50%;
+		text-align: center;
+		/* background: #C0C4CC; */
+		padding-top: 0;
+		/* margin-left: 60px; */
+		z-index: 5;
+	}
+
+	.case-rectangle {
+		width: 100%;
+		height: 35%;
+		/* background-color:#C0C4CC; */
+		margin-left: 0%;
+		margin-top: 100px;
+		padding: 10px;
+	}
+
+	.case-factory {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-military {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-construction {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-text {
+		text-indent: 2em;
+		font-size: 0.7rem;
+		font-family: "幼圆";
+	}
+
+	.fp-controlArrow.fp-prev {
+		display: none;
+	}
+
+	.fp-controlArrow {
+		display: none;
+	}
+
+	.fp-controlArrow.fp-next {
+		display: none;
+	}
+
+
+	/* 关于广景 */
+	.about-front {
+		display: none;
+	}
+
+	.mobile {
+		display: inline;
+	}
+
+	.mobile {
+		border: 1px solid #fff;
+		width: 100%;
+		height: 45%;
+		float: left;
+		overflow: auto;
+	}
+
+	.about-global {
+		width: 23%;
+		height: 10rem;
+		float: left;
+		/* background-color:#fff; */
+		margin-left: 0.3%;
+	}
+
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 100%;
+		background: rgba(192, 192, 192, 0.3);
+		margin-top: -18%;
+	}
+
+	.about-mask:hover {
+		width: 100%;
+		height: 100%;
+		background: rgba(192, 192, 192, 0);
+	}
+
+	/* 文字 */
+	.mask-text {
+		margin-top: 12%;
+		text-align: center;
+	}
+
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: left;
+		/* background-color: darkred; */
+		z-index: 2;
+	}
+
+	.about-left:hover {
+		width: 100%;
+		height: 25rem;
+	}
+
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: left;
+		/* background-color: green; */
+	}
+
+	.about-center:hover {
+		width: 100%;
+		height: 25rem;
+		z-index: 0;
+		margin-left: 0%;
+		display: inline-block !important;
+		display: inline;
+	}
+
+	/* 团队介绍 */
+	.about-right {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: right;
+		/* background-color: blueviolet; */
+		z-index: 1;
+	}
+
+	.about-right:hover {
+		width: 100%;
+		height: 25rem;
+	}
+
+	.display {
+		display: none;
+	}
+
+	.about-behind {
+		width: 100%;
+		height: 49rem;
+		background: #007AFF;
+	}
+}
+
+
+@media screen and (min-width:375px) and (max-width:425px) {
+	.mask-pic {
+		width: 100%;
+		height: 25%;
+		position: absolute;
+		top: 35%;
+	}
+
+	/* 提示 */
+	.heit {
+		display: inline;
+	}
+
+	.heit-bottom {
+		display: inline;
+	}
+
+	/* nav.................... */
+	.index-nav {
+		display: none;
+	}
+
+	/* logo--------------------- */
+	.logo {
+		position: fixed;
+		width: 60px;
+		height: 80px;
+		top: 5px;
+		left: 5px;
+		z-index: 10;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+
+
+	/* 核心技术 */
+	.move-technology{
+		display: inline;
+	}
+	.swiper-container {
+		display: none;
+	}
+	.btn{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.btn:hover{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.pull-menu{
+		height: 380px;
+		width: 100%;
+		position: absolute;
+		top: 15%;
+	}
+	.pull-menu div img{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.menu{
+		position: absolute;
+		right: 50px;
+		top:10px;
+	}
+	.dropdown-menu{
+		background-color: rgba(0,0,0,0.6);
+	}
+	.dropdown-menu  li a{
+		color: #fff;
+	}
+	.technology-strip {
+	    height: 60px;
+	}
+	.technology-text-one{
+		font-size: 15px;
+	}
+	.technology-text-two{
+		font-size: 15px;
+	}
+
+	/* 应用案例	 */
+	.text-p {
+		font-size: 10px;
+	}
+	.white{
+		font-size: 2rem;
+	}
+	.case-circle {
+		width: 45%;
+		height: 50%;
+		text-align: center;
+		/* background: #C0C4CC; */
+		padding-top: 0;
+		/* margin-left: 60px; */
+		z-index: 5;
+	}
+
+	.case-rectangle {
+		width: 100%;
+		height: 35%;
+		/* background-color:#C0C4CC; */
+		margin-left: 0%;
+		margin-top: 100px;
+		padding: 10px;
+	}
+
+	.case-factory {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-military {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-construction {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-text {
+		text-indent: 2em;
+		font-size: 0.7rem;
+		font-family: "幼圆";
+	}
+
+	.fp-controlArrow.fp-prev {
+		display: none;
+	}
+
+	.fp-controlArrow {
+		display: none;
+	}
+
+	.fp-controlArrow.fp-next {
+		display: none;
+	}
+
+	/* 关于广景 */
+	.about-front {
+		display: none;
+	}
+
+	.mobile {
+		display: inline;
+	}
+
+	.mobile {
+		border: 1px solid #fff;
+		width: 100%;
+		height: 45%;
+		float: left;
+		overflow: auto;
+	}
+
+	.about-global {
+		width: 23%;
+		height: 15rem;
+		float: left;
+		/* background-color:#fff; */
+		margin-left: 0.3%;
+	}
+
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 28rem;
+		background: rgba(192, 192, 192, 0.3);
+	}
+
+	.about-mask:hover {
+		width: 100%;
+		height: 28rem;
+		background: rgba(192, 192, 192, 0);
+	}
+
+	/* 文字 */
+	.mask-text {
+		margin-top: -10%;
+		text-align: center;
+	}
+
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: left;
+		/* background-color: darkred; */
+
+		z-index: 2;
+	}
+
+	.about-left:hover {
+		width: 100%;
+		height: 25rem;
+	}
+
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: left;
+		/* background-color: green; */
+
+	}
+
+	.about-center:hover {
+		width: 100%;
+		height: 25rem;
+		z-index: 0;
+		margin-left: 0%;
+		display: inline-block !important;
+		display: inline;
+	}
+
+	/* 团队介绍 */
+	.about-right {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: right;
+		/* background-color: blueviolet; */
+
+		z-index: 1;
+	}
+
+	.about-right:hover {
+		width: 100%;
+		height: 25rem;
+	}
+
+	.display {
+		display: none;
+	}
+
+	.about-behind {
+		width: 100%;
+		height: 49rem;
+		background: #007AFF;
+	}
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+	.mask-pic {
+		width: 100%;
+		height: 30%;
+		position: absolute;
+		top: 35%;
+	}
+
+	/* 提示 */
+	.heit {
+		display: inline;
+	}
+	
+	.heit-bottom {
+		display: inline;
+	}
+	/* nav.................... */
+	.index-nav {
+		display: none;
+	}
+
+	
+	/* logo--------------------- */
+	.logo {
+		position: fixed;
+		width: 60px;
+		height: 80px;
+		top: 5px;
+		left: 5px;
+		z-index: 10;
+		-webkit-transition: all 0.5s ease-in-out;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+	}
+	/* 核心技术 */
+	.move-technology{
+		display: inline;
+	}
+	.swiper-container {
+		display: none;
+	}
+	.btn{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.btn:hover{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.pull-menu{
+		height: 380px;
+		width: 100%;
+	}
+	.pull-menu div img{
+		background-color: rgba(0,0,0,0.6);
+		color: #fff;
+	}
+	.menu{
+		position: absolute;
+		right: 50px;
+		top: -10px;
+	}
+	.technology-strip {
+	    height: 60px;
+	}
+	.technology-text-one{
+		font-size: 15px;
+	}
+	.technology-text-two{
+		font-size: 15px;
+	}
+
+	/* 关于广景 */
+	.about-front {
+		display: none;
+	}
+
+	.mobile {
+		display: inline;
+	}
+
+	.mobile {
+		border: 1px solid #fff;
+		width: 100%;
+		height: 40%;
+		float: left;
+		overflow: auto;
+	}
+
+	.about-global {
+		width: 23%;
+		height: 15rem;
+		float: left;
+		/* background-color:#fff; */
+		margin-left: 0.3%;
+	}
+
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 27rem;
+		background: rgba(192, 192, 192, 0.3);
+	}
+
+	.about-mask:hover {
+		width: 100%;
+		height: 27rem;
+		background: rgba(192, 192, 192, 0);
+	}
+
+	/* 文字 */
+	.mask-text {
+		margin-top: -20%;
+		text-align: center;
+	}
+
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: left;
+		/* background-color: darkred; */
+
+		z-index: 2;
+	}
+
+	.about-left:hover {
+		width: 100%;
+		height: 25rem;
+	}
+
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: left;
+		/* background-color: green; */
+
+	}
+
+	.about-center:hover {
+		width: 100%;
+		height: 25rem;
+		z-index: 0;
+		margin-left: 0%;
+		display: inline-block !important;
+		display: inline;
+	}
+
+	/* 团队介绍 */
+	.about-right {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		float: right;
+		/* background-color: blueviolet; */
+
+		z-index: 1;
+	}
+
+	.about-right:hover {
+		width: 100%;
+		height: 25rem;
+	}
+
+	.display {
+		display: none;
+	}
+
+	.about-behind {
+		width: 100%;
+		height: 49rem;
+		background: #007AFF;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:769px) {
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 25rem;
+		background: rgba(192, 192, 192, 0.3);
+		margin-top: 20%;
+	}
+	
+	.about-mask:hover {
+		width: 100%;
+		height: 25rem;
+		background: rgba(192, 192, 192, 0);
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+	.mask-pic {
+		width: 100%;
+		height: 45%;
+		position: absolute;
+		top: 30%;
+	}
+
+	/* 提示 */
+	.heit {
+		display: inline;
+	}
+
+	.nav-trigger {
+		display: none;
+	}
+
+	.heit-bottom {
+		display: inline;
+	}
+
+	/* 核心技术 */
+	.swiper-wrapper {
+		width: 100%;
+		height: 20rem;
+	}
+	.technology-strip {
+		position: absolute;
+		width: 100%;
+		height: 18%;
+		text-align: center;
+		padding: 1% 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin-top: 50%;
+	}
+
+	.technology-text-one {
+		font-size: 1rem;
+	}
+
+	.technology-text-two {
+		font-size: .5rem;
+	}
+
+	/* 应用案例	 */
+	.white {
+		font-size: 2rem;
+	}
+
+	.text-p {
+		font-size: 10px;
+	}
+
+	.case-circle {
+		width: 45%;
+		height: 50%;
+		text-align: center;
+		/* background: #C0C4CC; */
+		padding-top: 0;
+		/* margin-left: 60px; */
+		z-index: 5;
+	}
+
+	.case-rectangle {
+		width: 100%;
+		height: 35%;
+		/* background-color:#C0C4CC; */
+		margin-left: 0%;
+		margin-top: 100px;
+		padding: 10px;
+	}
+
+	.case-factory {
+		width: 80%;
+		height: 300px;
+		margin-left: 5%;
+	}
+
+	.case-military {
+		width: 80%;
+		height: 300px;
+		margin-left: 5%;
+	}
+
+	.case-construction {
+		width: 80%;
+		height: 300px;
+		margin-left: 5%;
+	}
+
+	.case-text {
+		text-indent: 2em;
+		font-size: 1rem;
+		font-family: "幼圆";
+	}
+
+	.fp-controlArrow.fp-prev {
+		display: none;
+	}
+
+	.fp-controlArrow {
+		display: none;
+	}
+
+	.fp-controlArrow.fp-next {
+		display: inline;
+	}
+
+	/* 关于广景 */
+	.about-front {
+		display: inline;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	.about-global {
+		width: 33%;
+		height: 25rem;
+	}
+
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 25rem;
+		background: rgba(192, 192, 192, 0.3);
+		margin-top: 0%;
+	}
+
+	.about-mask:hover {
+		width: 100%;
+		height: 25rem;
+		background: rgba(192, 192, 192, 0);
+	}
+
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 25rem;
+	}
+
+	.about-left:hover {
+		width: 120%;
+		height: 25rem;
+	}
+
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 25rem;
+		position: relative;
+		transition: .5s;
+		margin-top: 0%;
+	}
+
+	.about-center:hover {
+		width: 155%;
+		height: 25rem;
+		z-index: 2;
+		margin-left: -50%;
+		display: inline-block !important;
+		display: inline;
+	}
+
+	.text-black {
+		margin-top: 0%;
+	}
+
+	/* 团队介绍 */
+	.about-right {
+		width: 100%;
+		height: 25rem;
+	}
+
+	.about-right:hover {
+		width: 120%;
+		height: 25rem;
+	}
+
+	.mask-text {
+		padding-top: 50%;
+		padding-left: 20%;
+	}
+
+	.text-black {
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+	.mask-pic {
+		width: 100%;
+		height: 45%;
+		position: absolute;
+		top: 30%;
+	}
+	
+	.heit-bottom {
+		display: none;
+	}
+	.heit {
+		display: none;
+	}
+
+	.nav-trigger {
+		display: none;
+	}
+
+	.section {
+		width: 100%;
+		height: 800px;
+	}
+
+	/* 核心技术 */
+	.swiper-wrapper {
+		width: 100%;
+		height: 30rem;
+	}
+
+	.technology-strip {
+		position: absolute;
+		width: 100%;
+		height: 15%;
+		text-align: center;
+		padding: 1% 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin-top: 50%;
+	}
+
+	.technology-text-one {
+		font-size: 1.7rem;
+	}
+
+	.technology-text-two {
+		font-size: 1rem;
+	}
+
+	/* 应用案例	 */
+	.text-p {
+		font-size: 15px;
+	}
+
+	.case-circle {
+		width: 45%;
+		height: 50%;
+		text-align: center;
+		/* background: #C0C4CC; */
+		padding-top: 50px;
+		/* margin-left: 60px; */
+		z-index: 5;
+	}
+
+	.case-rectangle {
+		width: 70%;
+		height: 15%;
+		/* background-color:#C0C4CC; */
+		float: right;
+		margin-top: 135px;
+		padding: 10px;
+	}
+
+	.case-factory {
+		width: 100%;
+		height: 700px;
+		margin-left: 0;
+	}
+
+	.case-military {
+		width: 100%;
+		height: 700px;
+		margin-left: 0;
+	}
+
+	.case-construction {
+		width: 100%;
+		height: 700px;
+		margin-left: 0;
+	}
+
+	.case-text {
+		text-indent: 2em;
+		font-size: 1rem;
+		font-family: "幼圆";
+	}
+
+	.fp-controlArrow.fp-prev {
+		display: none;
+	}
+
+	.fp-controlArrow {
+		display: none;
+	}
+
+	.fp-controlArrow.fp-next {
+		display: inline;
+	}
+
+	/* 关于广景 */
+	.about-global {
+		width: 33%;
+		height: 30rem;
+	}
+
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 30rem;
+		background: rgba(192, 192, 192, 0.3);
+	}
+
+	.about-mask:hover {
+		width: 100%;
+		height: 30rem;
+		background: rgba(192, 192, 192, 0);
+	}
+
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 30rem;
+	}
+
+	.about-left:hover {
+		width: 120%;
+		height: 30rem;
+	}
+
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 30rem;
+	}
+
+	.about-center:hover {
+		width: 155%;
+		height: 30rem;
+	}
+
+	/* 团队介绍 */
+	.about-right {
+		width: 100%;
+		height: 30rem;
+	}
+
+	.about-right:hover {
+		width: 120%;
+		height: 30rem;
+	}
+
+	.mask-text {
+		padding-top: 50%;
+		padding-left: 20%;
+	}
+
+	.text-black {
+		font-size: 20px;
+	}
+
+	.about-mask {
+		margin-top: 0%;
+	}
+
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 35%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+
+	.code {
+		width: 25%;
+		height: 100%;
+		margin-left: 38%;
+	}
+
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		/* background-color: #fff; */
+		margin-top: -10%;
+	}
+
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 3rem;
+		color: #fff;
+	}
+
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 2rem;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width:1440px) and (max-width:1535px) {
+	.mask-pic {
+		width: 100%;
+		height: 55%;
+		position: absolute;
+		top: 25%;
+	}
+
+	#fp-nav {
+		display: none;
+	}
+
+	/* 核心技术 */
+	.swiper-wrapper {
+		width: 100%;
+		height: 40rem;
+	}
+
+	.technology-strip {
+		position: absolute;
+		width: 100%;
+		height: 15%;
+		text-align: center;
+		padding: 1% 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin-top: 50%;
+	}
+
+	.technology-text-one {
+		font-size: 2.5rem;
+	}
+
+	.technology-text-two {
+		font-size: 1.5rem;
+	}
+
+	/* 案例分析 */
+	.white {
+		font-size: 3.5rem;
+	}
+
+	.text-p {
+		font-size: 23px;
+	}
+
+	.case-circle {
+		width: 45%;
+		height: 50%;
+		text-align: center;
+		/* background: #C0C4CC; */
+		padding-top: 0;
+		/* margin-left: 60px; */
+		z-index: 5;
+		padding-top: 150px;
+	}
+
+	.case-rectangle {
+		width: 60%;
+		height: 300px;
+		/* background-color:#C0C4CC; */
+		float: right;
+		margin-top: 300px;
+		padding: 40px;
+	}
+
+	.case-factory {
+		width: 100%;
+		height: 80rem;
+	}
+
+	.case-military {
+		width: 100%;
+		height: 80rem;
+	}
+
+	.case-construction {
+		width: 100%;
+		height: 80rem;
+	}
+
+	.case-text {
+		text-indent: 2em;
+		font-size: 2rem;
+		font-family: "幼圆";
+	}
+
+	.fp-controlArrow.fp-prev {
+		display: inline;
+	}
+
+	.fp-controlArrow {
+		display: inline;
+	}
+
+	.fp-controlArrow.fp-next {
+		display: inline;
+	}
+
+	/* 关于广景 */
+	.about-global {
+		width: 33%;
+		height: 40rem;
+	}
+
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 40rem;
+		background: rgba(192, 192, 192, 0.3);
+	}
+
+	.about-mask:hover {
+		width: 100%;
+		height: 40rem;
+		background: rgba(192, 192, 192, 0);
+	}
+
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 40rem;
+	}
+
+	.about-left:hover {
+		width: 120%;
+		height: 40rem;
+	}
+
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 40rem;
+	}
+
+	.about-center:hover {
+		width: 155%;
+		height: 40rem;
+	}
+
+	/* 团队介绍 */
+	.about-right {
+		width: 100%;
+		height: 40rem;
+	}
+
+	.about-right:hover {
+		width: 120%;
+		height: 40rem;
+	}
+
+	.mask-text {
+		padding-top: 50%;
+		padding-left: 20%;
+	}
+
+	.text-black {
+		font-size: 20px;
+	}
+
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 35%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+
+	.code {
+		width: 40%;
+		height: 100%;
+		margin-left: 30%;
+	}
+
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 35.5%;
+		background-color: #222222;
+		margin-top: 10%;
+	}
+
+	.site-text-top {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 6.5rem;
+		color: #fff;
+	}
+
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 5rem;
+		color: #fff;
+	}
+}
+
+@media screen and (min-width:1536px) and (max-width:1900px) {
+	.section {
+		height: 50rem;
+	}
+	.swiper-wrapper {
+	    width: 100%;
+	    height: 40rem;
+	}
+	.swiper-slide{
+		height: 600px;
+		margin-top: 5%;
+		
+	}
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 25rem;
+		/* background-color: #fff; */
+		margin-top: 4.5%;
+	}
+
+	.code {
+		width: 30%;
+		height: 100%;
+		margin-left: 35%;
+	}
+
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 27.5rem;
+		/* background-color: #000000; */
+	}
+
+	.site-text-top {
+		text-align: center;
+		padding-top: 3.5%;
+	}
+
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 1%;
+		font-size: 30px;
+	}
+}
