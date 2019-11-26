@@ -44,9 +44,10 @@
 	/* 首页 */
 	.mask-pic {
 		width: 100%;
-		height: 20%;
+		height: 25%;
+		/* align-items: center; */
 		position: absolute;
-		top: 40%;
+		top: 30%;
 	}
 
 	.intro-text {
@@ -58,42 +59,91 @@
 	}
 
 	/* 核心技术 */
-	.move-technology{
+	.move-technology {
 		display: inline;
 	}
+
 	.swiper-container {
 		display: none;
 	}
-	.btn{
-		background-color: rgba(0,0,0,0.6);
+
+	.btn {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.btn:hover{
-		background-color: rgba(0,0,0,0.6);
+
+	.btn:hover {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.pull-menu{
+
+	.pull-menu {
 		height: 380px;
-		width: 100%;
+		align-items: center;
 	}
-	.pull-menu div img{
-		background-color: rgba(0,0,0,0.6);
+
+	.pull-menu div img {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.menu{
+
+	.menu {
 		position: absolute;
 		right: 50px;
 		top: -10px;
 	}
+
+	.dropdown-menu {
+		position: absolute;
+		top: 75%;
+		left: 0;
+		z-index: 1000;
+		display: none;
+		float: left;
+		min-width: 160px;
+		padding: 6x 0;
+		margin: 10px 0 0;
+		font-size: 14px;
+		text-align: left;
+		list-style: none;
+		background-color: rgba(0, 0, 0, 0.6);
+		-webkit-background-clip: padding-box;
+
+	}
+
+	.dropdown-menu>li>a {
+		color: #fff;
+		padding: 1px 20px;
+	}
+
+	.image {
+		height: 380px;
+		align-items: center;
+	}
+
 	.technology-strip {
-	    height: 60px;
+		height: 60px;
 	}
-	.technology-text-one{
+
+	.technology-text-one {
 		font-size: 15px;
 	}
-	.technology-text-two{
+
+	.technology-text-two {
 		font-size: 15px;
 	}
+
+	.technology-strip {
+		position: absolute;
+		width: 100%;
+		/* height: 14%; */
+		align-items: center;
+		text-align: center;
+		padding: 1% 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin-top: 50%;
+	}
+
 	/* 应用案例	 */
 	.white {
 		font-size: 20px;
@@ -168,9 +218,18 @@
 	.mobile {
 		border: 1px solid #fff;
 		width: 100%;
-		height: 45%;
+		height:380px;
 		float: left;
-		overflow: auto;
+		overflow-y:auto; 
+		overflow-x:auto; 
+	}
+
+	.mobile-about {
+		/*设置内部嵌套的div宽度（大于外部div宽度）*/
+		width: 350%;
+		height:400px;
+		/* overflow-y:auto; 
+		overflow-x:auto; */
 	}
 
 	.about-global {
@@ -182,19 +241,6 @@
 	}
 
 	/* 蒙版 */
-	.about-mask {
-		width: 100%;
-		height: 100%;
-		background: rgba(192, 192, 192, 0.3);
-		margin-top: -18%;
-	}
-
-	.about-mask:hover {
-		width: 100%;
-		height: 100%;
-		background: rgba(192, 192, 192, 0);
-	}
-
 	/* 文字 */
 	.mask-text {
 		margin-top: 12%;
@@ -303,58 +349,100 @@
 
 
 	/* 核心技术 */
-	.move-technology{
+	.move-technology {
 		display: inline;
 	}
+
 	.swiper-container {
 		display: none;
 	}
-	.btn{
-		background-color: rgba(0,0,0,0.6);
+
+	.btn {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.btn:hover{
-		background-color: rgba(0,0,0,0.6);
+
+	.btn:hover {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.pull-menu{
+
+	.pull-menu {
 		height: 380px;
-		width: 100%;
-		position: absolute;
-		top: 15%;
+		align-items: center;
 	}
-	.pull-menu div img{
-		background-color: rgba(0,0,0,0.6);
+
+	.pull-menu div img {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.menu{
+
+	.menu {
 		position: absolute;
 		right: 50px;
-		top:10px;
+		top: -10px;
 	}
-	.dropdown-menu{
-		background-color: rgba(0,0,0,0.6);
+
+	.dropdown-menu {
+		position: absolute;
+		top: 75%;
+		left: 0;
+		z-index: 1000;
+		display: none;
+		float: left;
+		min-width: 160px;
+		padding: 6x 0;
+		margin: 10px 0 0;
+		font-size: 14px;
+		text-align: left;
+		list-style: none;
+		background-color: rgba(0, 0, 0, 0.6);
+		-webkit-background-clip: padding-box;
+
 	}
-	.dropdown-menu  li a{
+
+	.dropdown-menu>li>a {
 		color: #fff;
+		padding: 1px 20px;
 	}
+
+	.image {
+		height: 380px;
+		align-items: center;
+	}
+
 	.technology-strip {
-	    height: 60px;
+		height: 60px;
 	}
-	.technology-text-one{
+
+	.technology-text-one {
 		font-size: 15px;
 	}
-	.technology-text-two{
+
+	.technology-text-two {
 		font-size: 15px;
+	}
+
+	.technology-strip {
+		position: absolute;
+		width: 100%;
+		/* height: 14%; */
+		align-items: center;
+		text-align: center;
+		padding: 1% 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin-top: 50%;
 	}
 
 	/* 应用案例	 */
 	.text-p {
 		font-size: 10px;
 	}
-	.white{
+
+	.white {
 		font-size: 2rem;
 	}
+
 	.case-circle {
 		width: 45%;
 		height: 50%;
@@ -516,7 +604,7 @@
 	}
 }
 
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:767px) {
 	.mask-pic {
 		width: 100%;
 		height: 30%;
@@ -528,16 +616,17 @@
 	.heit {
 		display: inline;
 	}
-	
+
 	.heit-bottom {
 		display: inline;
 	}
+
 	/* nav.................... */
 	.index-nav {
 		display: none;
 	}
 
-	
+
 	/* logo--------------------- */
 	.logo {
 		position: fixed;
@@ -552,42 +641,147 @@
 		-ms-transition: all 0.5s ease-in-out;
 		transition: all 0.5s ease-in-out;
 	}
+
 	/* 核心技术 */
-	.move-technology{
+	.move-technology {
 		display: inline;
 	}
+
 	.swiper-container {
 		display: none;
 	}
-	.btn{
-		background-color: rgba(0,0,0,0.6);
+
+	.btn {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.btn:hover{
-		background-color: rgba(0,0,0,0.6);
+
+	.btn:hover {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.pull-menu{
-		height: 380px;
-		width: 100%;
+
+	.pull-menu {
+		height: 0%;
+		align-items: center;
 	}
-	.pull-menu div img{
-		background-color: rgba(0,0,0,0.6);
+
+	.pull-menu div img {
+		background-color: rgba(0, 0, 0, 0.6);
 		color: #fff;
 	}
-	.menu{
+
+	.menu {
 		position: absolute;
 		right: 50px;
 		top: -10px;
 	}
+
+	.dropdown-menu {
+		position: absolute;
+		top: 75%;
+		left: 0;
+		z-index: 1000;
+		display: none;
+		float: left;
+		min-width: 160px;
+		padding: 6x 0;
+		margin: 10px 0 0;
+		font-size: 14px;
+		text-align: left;
+		list-style: none;
+		background-color: rgba(0, 0, 0, 0.6);
+		-webkit-background-clip: padding-box;
+	}
+
+	.dropdown-menu>li>a {
+		color: #fff;
+		padding: 3px 20px;
+	}
+
+	.image {
+		height: 100%;
+		align-items: center;
+	}
+
 	.technology-strip {
-	    height: 60px;
+		height: 60px;
 	}
-	.technology-text-one{
+
+	.technology-text-one {
 		font-size: 15px;
 	}
-	.technology-text-two{
+
+	.technology-text-two {
 		font-size: 15px;
+	}
+
+	.technology-strip {
+		position: absolute;
+		width: 100%;
+		/* height: 14%; */
+		align-items: center;
+		text-align: center;
+		padding: 1% 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin-top: 50%;
+	}
+
+	/* 应用案例	 */
+	.text-p {
+		font-size: 10px;
+	}
+
+	.white {
+		font-size: 2rem;
+	}
+
+	.case-circle {
+		width: 45%;
+		height: 50%;
+		text-align: center;
+		/* background: #C0C4CC; */
+		padding-top: 0;
+		/* margin-left: 60px; */
+		z-index: 5;
+	}
+
+	.case-rectangle {
+		width: 100%;
+		height: 35%;
+		/* background-color:#C0C4CC; */
+		margin-left: 0%;
+		margin-top: 100px;
+		padding: 10px;
+	}
+
+	.case-factory {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-military {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-construction {
+		width: 100%;
+		height: 300px;
+	}
+
+	.case-text {
+		text-indent: 2em;
+		font-size: 0.9rem;
+		font-family: "幼圆";
+	}
+
+	.fp-controlArrow.fp-prev {
+		display: none;
+	}
+
+	.fp-controlArrow {
+		display: none;
 	}
 
 	/* 关于广景 */
@@ -699,7 +893,44 @@
 	}
 }
 
+@media screen and (min-width:500px) and (max-width:549px) {
+	.mask-pic {
+		width: 100%;
+		height: 35%;
+		position: absolute;
+		top: 30%;
+	}
+}
+
+@media screen and (min-width:550px) and (max-width:624px) {
+	.mask-pic {
+		width: 100%;
+		height: 40%;
+		position: absolute;
+		top: 30%;
+	}
+}
+
+@media screen and (min-width:625px) and (max-width:726px) {
+	.mask-pic {
+		width: 100%;
+		height: 45%;
+		position: absolute;
+		top: 28%;
+	}
+}
+
+@media screen and (min-width:727px) and (max-width:767px) {
+	.mask-pic {
+		width: 100%;
+		height: 50%;
+		position: absolute;
+		top: 28%;
+	}
+}
+
 @media screen and (min-width:768px) and (max-width:769px) {
+
 	/* 蒙版 */
 	.about-mask {
 		width: 100%;
@@ -707,7 +938,7 @@
 		background: rgba(192, 192, 192, 0.3);
 		margin-top: 20%;
 	}
-	
+
 	.about-mask:hover {
 		width: 100%;
 		height: 25rem;
@@ -715,12 +946,13 @@
 	}
 }
 
-@media screen and (min-width:769px) and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1024px) {
 	.mask-pic {
 		width: 100%;
-		height: 45%;
+		height: 52%;
+		/* align-items: center; */
 		position: absolute;
-		top: 30%;
+		top: 25%;
 	}
 
 	/* 提示 */
@@ -741,6 +973,7 @@
 		width: 100%;
 		height: 20rem;
 	}
+
 	.technology-strip {
 		position: absolute;
 		width: 100%;
@@ -748,7 +981,7 @@
 		text-align: center;
 		padding: 1% 0;
 		background-color: rgba(0, 0, 0, 0.5);
-		margin-top: 50%;
+		margin-top: 0%;
 	}
 
 	.technology-text-one {
@@ -905,17 +1138,36 @@
 	}
 }
 
+@media screen and (min-width:800px) and (max-width:900px) {
+	.mask-pic {
+		width: 100%;
+		height: 55%;
+		position: absolute;
+		top: 20%;
+	}
+}
+
+@media screen and (min-width:901px) and (max-width:1024px) {
+	.mask-pic {
+		width: 100%;
+		height: 56%;
+		position: absolute;
+		top: 20%;
+	}
+}
+
 @media screen and (min-width:1024px) and (max-width:1440px) {
 	.mask-pic {
 		width: 100%;
-		height: 45%;
+		height: 60%;
 		position: absolute;
-		top: 30%;
+		top: 20%;
 	}
-	
+
 	.heit-bottom {
 		display: none;
 	}
+
 	.heit {
 		display: none;
 	}
@@ -942,7 +1194,7 @@
 		text-align: center;
 		padding: 1% 0;
 		background-color: rgba(0, 0, 0, 0.5);
-		margin-top: 50%;
+		margin-top: 00%;
 	}
 
 	.technology-text-one {
@@ -1088,16 +1340,16 @@
 	}
 
 	.code {
-		width: 25%;
+		width: 35%;
 		height: 100%;
-		margin-left: 38%;
+		margin-left: 33%;
 	}
 
 	/* 地址 */
 	.site {
 		width: 100%;
 		height: 45.5%;
-		/* background-color: #fff; */
+		background-color: #222222;
 		margin-top: -10%;
 	}
 
@@ -1116,12 +1368,54 @@
 	}
 }
 
+@media screen and (min-width:1100px) and (max-width:1200px) {
+	.mask-pic {
+		width: 100%;
+		height: 65%;
+		position: absolute;
+		top: 20%;
+	}
+}
+
+@media screen and (min-width:1200px) and (max-width:1300px) {
+	.mask-pic {
+		width: 100%;
+		height: 65%;
+		position: absolute;
+		top: 15%;
+	}
+
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 35%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+
+	.code {
+		width: 30%;
+		height: 100%;
+		margin-left: 35%;
+	}
+
+}
+
+@media screen and (min-width:1300px) and (max-width:1440px) {
+	.mask-pic {
+		width: 100%;
+		height: 70%;
+		position: absolute;
+		top: 15%;
+	}
+}
+
 @media screen and (min-width:1440px) and (max-width:1535px) {
 	.mask-pic {
 		width: 100%;
-		height: 55%;
+		height: 80%;
 		position: absolute;
-		top: 25%;
+		top: 15%;
 	}
 
 	#fp-nav {
@@ -1141,7 +1435,7 @@
 		text-align: center;
 		padding: 1% 0;
 		background-color: rgba(0, 0, 0, 0.5);
-		margin-top: 50%;
+		margin-top: 0%;
 	}
 
 	.technology-text-one {
@@ -1174,7 +1468,7 @@
 
 	.case-rectangle {
 		width: 60%;
-		height: 300px;
+		height: 15%;
 		/* background-color:#C0C4CC; */
 		float: right;
 		margin-top: 300px;
@@ -1183,23 +1477,33 @@
 
 	.case-factory {
 		width: 100%;
-		height: 80rem;
+		height: 66rem;
+		/* align-items: center; */
 	}
 
 	.case-military {
 		width: 100%;
-		height: 80rem;
+		height: 66rem;
 	}
 
 	.case-construction {
 		width: 100%;
-		height: 80rem;
+		height: 66rem;
 	}
 
 	.case-text {
 		text-indent: 2em;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		font-family: "幼圆";
+	}
+
+	.case-rectangle {
+		width: 60%;
+		height: 20%;
+		/* background-color: #C0C4CC; */
+		float: right;
+		margin-top: 10%;
+		padding: 40px;
 	}
 
 	.fp-controlArrow.fp-prev {
@@ -1281,11 +1585,12 @@
 		width: 100%;
 		height: 35%;
 		/* background-color: #fff; */
-		margin-top: 5%;
+		margin-top: 0%;
+		margin-left: 5%;
 	}
 
 	.code {
-		width: 40%;
+		width: 30%;
 		height: 100%;
 		margin-left: 30%;
 	}
@@ -1295,49 +1600,139 @@
 		width: 100%;
 		height: 35.5%;
 		background-color: #222222;
-		margin-top: 10%;
+		margin-top: 0%;
 	}
 
 	.site-text-top {
 		text-align: center;
 		padding-top: 5%;
-		font-size: 6.5rem;
+		font-size: 4rem;
 		color: #fff;
 	}
 
 	.site-text-bottom {
 		text-align: center;
 		padding-top: 5%;
-		font-size: 5rem;
+		font-size: 3rem;
 		color: #fff;
 	}
 }
 
-@media screen and (min-width:1536px) and (max-width:1900px) {
+@media screen and (min-width:1535px) and (max-width:1900px) {
 	.section {
 		height: 50rem;
 	}
+
 	.swiper-wrapper {
-	    width: 100%;
-	    height: 40rem;
+		width: 100%;
+		height: 40rem;
 	}
-	.swiper-slide{
-		height: 600px;
-		margin-top: 5%;
-		
+
+	.swiper-slide {
+		/* height:0px; */
+		margin-top: 0%;
+
 	}
+
+	/* 核心技术 */
+	.swiper-wrapper {
+		width: 100%;
+		height: 40rem;
+	}
+
+	.technology-strip {
+		position: absolute;
+		width: 100%;
+		height: 15%;
+		text-align: center;
+		padding: 1% 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin-top: 0%;
+	}
+
+	.technology-text-one {
+		font-size: 2.5rem;
+	}
+
+	.technology-text-two {
+		font-size: 1.5rem;
+	}
+
+	/* 案例分析 */
+	.white {
+		font-size: 3.5rem;
+	}
+
+	.text-p {
+		font-size: 23px;
+	}
+
+	.case-circle {
+		width: 45%;
+		height: 50%;
+		text-align: center;
+		/* background: #C0C4CC; */
+		padding-top: 0;
+		/* margin-left: 60px; */
+		z-index: 5;
+		padding-top: 150px;
+	}
+
+	.case-factory {
+		width: 100%;
+		/* height: 50rem; */
+		/* align-items: center; */
+	}
+
+	.case-military {
+		width: 100%;
+		/* height: 80rem; */
+	}
+
+	.case-construction {
+		width: 100%;
+		/* height: 80rem; */
+	}
+
+	.case-text {
+		text-indent: 2em;
+		font-size: 1.5rem;
+		font-family: "幼圆";
+	}
+
+	.case-rectangle {
+		width: 60%;
+		height: 20%;
+		/* background-color: #C0C4CC; */
+		float: right;
+		margin-top: 10%;
+		padding: 40px;
+	}
+
+	.fp-controlArrow.fp-prev {
+		display: inline;
+	}
+
+	.fp-controlArrow {
+		display: inline;
+	}
+
+	.fp-controlArrow.fp-next {
+		display: inline;
+	}
+
 	/* 名片 */
 	.visitingCard {
 		width: 100%;
-		height: 25rem;
+		height: 26rem;
 		/* background-color: #fff; */
 		margin-top: 4.5%;
 	}
 
 	.code {
-		width: 30%;
+		width: 25%;
 		height: 100%;
-		margin-left: 35%;
+		margin-left: 38%;
 	}
 
 	/* 地址 */

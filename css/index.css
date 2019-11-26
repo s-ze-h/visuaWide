@@ -150,21 +150,21 @@
 	transition: all 0.5s ease-in-out;
 }
 
-/* .logo a {
+.logo a {
 	display: block;
 	width: 80px;
 	height: 100px;
 	overflow: hidden;
 	background: url(../img/LOGO-white.png) center;
-	background-size: 100% 100%; */
-/* background-position: center top; */
-/* -webkit-transition: all 0.5s ease-in-out;
+	background-size: 100% 100%;
+background-position: center top;
+-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 	text-indent: -9999px;
-} */
+}
 
 .vido {
 	position: relative;
@@ -240,7 +240,7 @@
 
 .swiper-slide {
 	text-align: center;
-	margin-top: 1%;
+	margin-top: 0%;
 	font-size: 18px;
 	background: #fff;
 	/* Center slide text vertically */
@@ -270,13 +270,13 @@
 	left: 0;
 	width: 100%;
 }
-
+/* 
 .technology-color {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(128, 128, 128, 0.3);
-}
+} */
 
 .technology-text-one {
 	font-size: 3rem;
@@ -285,11 +285,12 @@
 .technology-strip {
 	position: absolute;
 	width: 100%;
-	height: 14%;
+	/* height: 14%; */
+	align-items: center;
 	text-align: center;
 	padding: 1% 0;
 	background-color: rgba(0, 0, 0, 0.5);
-	margin-top: 50%;
+	/* margin-top: 50%; */
 }
 
 /* 应用案例............................................... */
@@ -383,6 +384,7 @@
 .mask-text {
 	padding-top: 2%;
 	padding-left: 2%;
+	color: #000000;
 }
 
 /* 公司简介 */
@@ -446,7 +448,9 @@
 	padding-top: 50%;
 	padding-left: 20%;
 }
-
+.mask-text>h2>a {
+	color: #000000;
+}
 .display {
 	display: none;
 }
@@ -467,16 +471,18 @@
 }
 
 .mobile {
-	border: 1px solid #fff;
+	/* border: 1px solid #fff; */
 	width: 100%;
-	height: 50%;
+	align-items: center;
 	float: left;
-	overflow: auto;
+	overflow: initial;
 }
 
 .mobile-about {
 	/*设置内部嵌套的div宽度（大于外部div宽度）*/
 	width: 400%;
+	height: 50%;
+	overflow: initial;
 }
 
 /* 媒体动态 .................................*/
@@ -683,7 +689,80 @@
 		color: #fff;
 	}
 }
-
+@media screen and (min-width:560px) and (max-width:655px) {
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 35%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+	
+	.code {
+		width: 60%;
+		height: 100%;
+		margin-left: 20%;
+	}
+	
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+	}
+	
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
+	}
+	
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: #fff;
+	}
+}
+@media screen and (min-width:656px) and (max-width:767px) {
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 40%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+	
+	.code {
+		width: 60%;
+		height: 100%;
+		margin-left: 20%;
+	}
+	
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+	}
+	
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
+	}
+	
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: #fff;
+	}
+}
 @media screen and (min-width:768px) and (max-width:1024px) {
 	#fp-nav {
 		display: none;
@@ -693,15 +772,15 @@
 	/* 名片 */
 	.visitingCard {
 		width: 100%;
-		height: 35%;
+		height: 33%;
 		/* background-color: #fff; */
 		margin-top: 5%;
 	}
 
 	.code {
-		width: 40%;
+		width: 45%;
 		height: 100%;
-		margin-left: 30%;
+		margin-left: 28%;
 	}
 
 	/* 地址 */
@@ -724,5 +803,20 @@
 		padding-top: 5%;
 		font-size: 2rem;
 		color: #fff;
+	}
+}
+@media screen and (min-width:900px) and (max-width:1024px) {
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 33%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+	
+	.code {
+		width: 40%;
+		height: 100%;
+		margin-left: 30%;
 	}
 }
