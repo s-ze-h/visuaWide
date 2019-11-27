@@ -12,7 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css" />
 		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
-
 		<link rel="shortcut icon" href="favicon.ico">
 		<link href="css/css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/css/font-awesome.css" rel="stylesheet">
@@ -42,7 +41,7 @@
 			<div class="section intro">
 				<!-- 面部模型 -->
 				<div class="mask">
-					<img class="mask-pic" src="img/shouyetu.jpg">
+					<img class="mask-pic" src="img/shouye.jpg">
 					<!-- <div class="logo animated">
 						<a href="index.html">广景视觉</a>
 					</div> -->
@@ -106,7 +105,7 @@
 									<p class="technology-text-two">人员检测类</p>
 								</div>
 							</div>
-							<img class="technology-pic" src="img/People%20Broke%20Into.jpg" alt="闯入检测">
+							<img class="technology-pic" src="img/PeopleBrok.Into.jpg" alt="闯入检测">
 						</div>
 						<div class="swiper-slide">
 							<div class="technology-color">
@@ -325,7 +324,7 @@
 									<p class="technology-text-two">人员检测类</p>
 								</div>
 							</div>
-							<img class="technology-pic" src="img/PeopleBrokeInto.jpg" alt="闯入检测">
+							<img class="technology-pic" src="img/PeopleBrok.Into.jpg" alt="闯入检测">
 						</div>
 						<div class="image">
 							<div class="technology-color">
@@ -370,7 +369,7 @@
 									<p class="technology-text-two">视频分析类</p>
 								</div>
 							</div>
-							<img class="technology-pic" src="img/SmokeRecognition.jpg" alt="明火识别"> g" alt="烟雾识别">
+							<img class="technology-pic" src="img/SmokeRecognition.jpg" alt="明火识别">
 						</div>
 						<div class="image">
 							<div class="technology-color">
@@ -524,36 +523,26 @@
 					</div><!-- 团队介绍 结束 -->
 				</div><!-- 关于广景页面 结束 -->
 				<!-- 移动端 -->
-				<div class="mobile">
-					<div class="mobile-about">
-						<!-- 公司简介 -->
-						<div class="about-global">
-							<div class="about-left">
-								<div class="mask-text">
-									<h2><a href="company.html">公司简介</a></h2>
-								</div>
+				<div id="kuang">
+					<div class="move-global">
+						<div class="move-left">
+							<img src="img/gongsijianjie.jpg">
+							<h2><a href="company.html">公司简介</a></h2>
+						</div>
+						<div class="move-left">
+							<img src="img/pinpaiwenhua.jpg">
+							<div class="center-text">
+								<h2>品牌文化</h2>
+								<p> 专注安全生产</p>
+								<p>开启智能安防新时代</p>
 							</div>
-						</div><!-- 公司简介 结束 -->
-						<!-- 品牌文化 -->
-						<div class="about-global">
-							<div class="about-center">
-								<div class="mask-text">
-									<h2>品牌文化</h2>
-									<p class="text-black"> 专注安全生产</p>
-									<p class="text-black">开启智能安防新时代</p>
-								</div>
+						</div>
+						<div class="move-left">
+							<img src="img/tuandui.jpg">
+							<div class="move-text">
+							<h2><a href="intro.html">团队介绍</a></h2>
 							</div>
-						</div><!-- 品牌文化 结束 -->
-						<!-- 团队介绍 -->
-						<div class="about-global">
-							<div class="about-right">
-								<div class="mask-text">
-									<h2><a href="intro.html">团队介绍</a></h2>
-								</div>
-							</div>
-						</div><!-- 团队介绍 结束 -->
-						<!-- 关于广景页面 结束 -->
-
+						</div>
 					</div>
 				</div>
 				<div class="heit-bottom">
@@ -625,7 +614,37 @@
 			});
 		});
 	</script>
-
+	<!-- <script>
+		var swiper = new Swiper('#kuang', {
+			direction: 'vertical',
+			initialSlide: 0,
+			noSwiping: true
+		});
+		var touchOption={touchStartX:0,startTranslateX:0,moveDistance:0};
+		var touchstart, touchmove, touchend;
+		outerDiv.addEventListener('touchstart',function(){
+		$(this).removeClass('transition');//移除动画效果，否则移动时图片会颤动
+		touchOption.touchStartX = e.touches[0].clientX;
+		        if ($(this).css("-webkit-transform") == 'none') {
+		          touchOption.startTranslateX = 0;
+		        }
+		        else {
+		          //css-webkit-transform属性值格式：matrix(1, 0, 0, 1, -4140, 0)
+		          var transfrom_info = $('#kuang').css("-webkit-transform").split(',')[4];//获取当前outerDiv的x轴坐标
+		          touchOption.startTranslateX = parseInt(transfrom_info);
+		        }
+		},false);
+		outerDiv.addEventListener('touchmove',function(){
+		       touchOption.moveDistance = (e.touches[0].clientX - touchOption.touchStartX);
+		        var TranslateX = touchOption.startTranslateX + touchOption.moveDistance;
+		        $(this).css('-webkit-transform', 'translateX('+ TranslateX +'px) translateZ(0)'); //移动图片
+		},false);
+		outerDiv.addEventListener('touchend',function(){
+		      $(this).addClass('transition);//添加动画效果
+		       var moveX=100;//此处计算移动移动下一张图片还是退货当前图片代码省略       
+		        $(this).css('-webkit-transform', 'translateX('+ moveX +'px) translateZ(0)'); //移动图片
+		},false);
+	</script> -->
 	<script>
 		function first() {
 			document.getElementById("caidan").style.display = "none";
@@ -643,7 +662,34 @@
 
 		}
 	</script>
-
+	<script>
+	var swiper = new Swiper('#kuang', {
+	    direction: 'vertical',
+		 initialSlide : 0,
+	           
+	            noSwiping : true
+	});
+	var startScroll, touchStart, touchCurrent;
+	swiper.slides.on('touchstart', function (e) {
+	    startScroll = this.scrollTop;
+	    touchStart = e.targetTouches[0].pageX;
+	}, true);
+	swiper.slides.on('touchmove', function (e) {
+	    touchCurrent = e.targetTouches[0].pageX;
+	    var touchesDiff = touchCurrent - touchStart;
+	    var slide = this;
+	    var onlyScrolling = 
+	            ( slide.scrollHeight > slide.offsetHeight ) &&
+	            (
+	                ( touchesDiff < 0 && startScroll === 0 ) ||
+	                ( touchesDiff > 0 && startScroll === ( slide.scrollHeight - slide.offsetHeight ) ) ||
+	                ( startScroll > 0 && startScroll < ( slide.scrollHeight - slide.offsetHeight ) )
+	            );
+	    if (onlyScrolling) {
+	        e.stopPropagation();
+	    }
+	}, true);
+	</script>
 	<!-- Initialize Swiper -->
 	<script>
 		var swiper = new Swiper('.swiper-container', {

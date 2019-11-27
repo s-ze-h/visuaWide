@@ -95,7 +95,7 @@
 .heit {
 	width: 100%;
 	position: absolute;
-	bottom: 5px;
+	bottom: 2px;
 	text-align: center;
 	z-index: 1;
 }
@@ -108,7 +108,7 @@
 
 .heit-line {
 	width: 2px;
-	height: 25px;
+	height: 20px;
 	border: 1px #fff solid;
 	margin-left: 50%;
 }
@@ -116,9 +116,9 @@
 .heit-bottom {
 	width: 100%;
 	position: absolute;
-	bottom: 5px;
+	bottom: 2px;
 	text-align: center;
-	z-index: 1;
+	/* z-index: 1; */
 }
 
 .heit-bottom a {
@@ -157,8 +157,8 @@
 	overflow: hidden;
 	background: url(../img/LOGO-white.png) center;
 	background-size: 100% 100%;
-background-position: center top;
--webkit-transition: all 0.5s ease-in-out;
+	background-position: center top;
+	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
@@ -270,6 +270,7 @@ background-position: center top;
 	left: 0;
 	width: 100%;
 }
+
 /* 
 .technology-color {
 	position: absolute;
@@ -290,7 +291,8 @@ background-position: center top;
 	text-align: center;
 	padding: 1% 0;
 	background-color: rgba(0, 0, 0, 0.5);
-	/* margin-top: 50%; */
+	position: fixed;
+	top: 25%;
 }
 
 /* 应用案例............................................... */
@@ -448,9 +450,11 @@ background-position: center top;
 	padding-top: 50%;
 	padding-left: 20%;
 }
+
 .mask-text>h2>a {
 	color: #000000;
 }
+
 .display {
 	display: none;
 }
@@ -466,24 +470,70 @@ background-position: center top;
 	display: inline;
 }
 
-.mobile {
-	display: none;
+#kuang {
+	display:none;
 }
 
-.mobile {
-	/* border: 1px solid #fff; */
+#kuang {
+	border: 1px solid #000;
+	width: 90%;
+	height: 400px;
+	overflow: auto;
+	position: absolute;
+	top: 10%;
+}
+
+.move-left img:hover {
+	/*鼠标悬浮时，生成阴影轮廓*/
+	box-shadow: 0px 0px 0px 0px #000000;
+}
+
+.move-left img {
 	width: 100%;
-	align-items: center;
+	height: 100%;
+	border-radius: 5px;
+	margin-top: 0px;
 	float: left;
-	overflow: initial;
 }
 
-.mobile-about {
+.move-global {
 	/*设置内部嵌套的div宽度（大于外部div宽度）*/
-	width: 400%;
-	height: 50%;
-	overflow: initial;
+	width: 300%;
 }
+
+.move-left {
+	width: 30%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	/* background-color: #009E94; */
+}
+
+.move-left>h2>a {
+	width: 30%;
+	color: #000000;
+	font-size: 3rem;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+	text-align: center;
+	/* background-color: #0000FF; */
+}
+
+.move-text {
+	width: 35%;
+	position: absolute;
+	top: 30%;
+	margin-left: 30%;
+	font-size: 2rem;
+}
+
+.move-text>h2>a {
+	color: #fff;
+}
+
+
+
 
 /* 媒体动态 .................................*/
 .join-in {
@@ -689,7 +739,9 @@ background-position: center top;
 		color: #fff;
 	}
 }
+
 @media screen and (min-width:560px) and (max-width:655px) {
+
 	/* 加入我们----------------------------------------*/
 	/* 名片 */
 	.visitingCard {
@@ -698,27 +750,27 @@ background-position: center top;
 		/* background-color: #fff; */
 		margin-top: 5%;
 	}
-	
+
 	.code {
 		width: 60%;
 		height: 100%;
 		margin-left: 20%;
 	}
-	
+
 	/* 地址 */
 	.site {
 		width: 100%;
 		height: 45.5%;
 		background-color: #222222;
 	}
-	
+
 	.site-text-top {
 		text-align: center;
 		padding-top: 15%;
 		font-size: 30px;
 		color: #fff;
 	}
-	
+
 	.site-text-bottom {
 		text-align: center;
 		padding-top: 5%;
@@ -726,7 +778,9 @@ background-position: center top;
 		color: #fff;
 	}
 }
+
 @media screen and (min-width:656px) and (max-width:767px) {
+
 	/* 加入我们----------------------------------------*/
 	/* 名片 */
 	.visitingCard {
@@ -735,27 +789,27 @@ background-position: center top;
 		/* background-color: #fff; */
 		margin-top: 5%;
 	}
-	
+
 	.code {
 		width: 60%;
 		height: 100%;
 		margin-left: 20%;
 	}
-	
+
 	/* 地址 */
 	.site {
 		width: 100%;
 		height: 45.5%;
 		background-color: #222222;
 	}
-	
+
 	.site-text-top {
 		text-align: center;
 		padding-top: 15%;
 		font-size: 30px;
 		color: #fff;
 	}
-	
+
 	.site-text-bottom {
 		text-align: center;
 		padding-top: 5%;
@@ -763,6 +817,7 @@ background-position: center top;
 		color: #fff;
 	}
 }
+
 @media screen and (min-width:768px) and (max-width:1024px) {
 	#fp-nav {
 		display: none;
@@ -805,7 +860,9 @@ background-position: center top;
 		color: #fff;
 	}
 }
+
 @media screen and (min-width:900px) and (max-width:1024px) {
+
 	/* 名片 */
 	.visitingCard {
 		width: 100%;
@@ -813,7 +870,7 @@ background-position: center top;
 		/* background-color: #fff; */
 		margin-top: 5%;
 	}
-	
+
 	.code {
 		width: 40%;
 		height: 100%;
