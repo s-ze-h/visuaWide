@@ -223,7 +223,7 @@
 				<div class="move-technology">
 					<div class="dropdown menu">
 						<button type="button" class="btn dropdown-toggle" id="dropdownMenu" data-toggle="dropdown">
-							全部算法
+							算法列表
 							<span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
@@ -523,31 +523,31 @@
 					</div><!-- 团队介绍 结束 -->
 				</div><!-- 关于广景页面 结束 -->
 				<!-- 移动端 -->
-				<div id="kuang">
-					<div class="move-global">
-						<div class="move-left">
-							<img src="img/gongsijianjie.jpg">
-							<h2><a href="company.html">公司简介</a></h2>
-						</div>
-						<div class="move-left">
-							<img src="img/pinpaiwenhua.jpg">
-							<div class="center-text">
-								<h2>品牌文化</h2>
-								<p> 专注安全生产</p>
-								<p>开启智能安防新时代</p>
-							</div>
-						</div>
-						<div class="move-left">
-							<img src="img/tuandui.jpg">
-							<div class="move-text">
-							<h2><a href="intro.html">团队介绍</a></h2>
-							</div>
+				<div class="move">
+					<div class="move-about">
+						<h1>关于广景</h1>
+					</div>
+					<div class="move-intro">
+						<div class="masked-intro">
+							<div class="top-line"></div>
+							<h3>广景简介</h3>
+							<p> 广景视觉是一家致力于用科技造就美好未来的技术型公司,公司自创立以来,就一直坚持发展人工智能视觉技术,为生产安全保驾护航。</p>
+							<p>作为人工智能视觉技术的创新者,广景视觉所研发的视觉识别技术已经广泛应用于电力、军工、部队、能源、水利、矿山、校园安全等多个领域。也曾为国家电网、中国兵器装备、中石油天然气等国企和大型央企提供技术支持，解决现有及潜在的安全隐患，实现人力优化和安全保障上的的双赢。</p>
 						</div>
 					</div>
-				</div>
-				<div class="heit-bottom">
-					<a class="intro-animated animated flash bounceInUp" data-animation="bounceInUp" href="#join">上滑</a>
-					<div class="heit-line intro-animated animated flash bounceInUp" data-animation="bounceInUp"></div>
+					<div class="move-brand">
+						<div class="top-line"></div>
+						<h3>品牌文化</h3>
+						<p> 专注安全生产</p>
+						<p>开启智能安防新时代</p>
+					</div>
+					<div class="move-team">
+						<div class="masked-team">
+							<div class="center-line"></div>
+							<h3>团队介绍</h3>
+							<p>我们的核心技术团队由来自伯明翰、约翰霍•普金斯大学医学院的专业科学家领衔，带领多位人工智能行业专家进行技术开发。拥有领先的算法研发技术和无限的创造力，旨在为传统安防行业赋予新的生命力。</p>
+						</div>
+					</div>
 				</div>
 			</div><!-- 关于广景 结束 -->
 
@@ -571,10 +571,12 @@
 	</body>
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/jquery.fullPage.js"></script>
+	<script src="js/jquery.slimscroll.min.js"></script>
 	<script src="js/layui.js"></script>
 	<script src="js/layui.all.js"></script>
 	<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/swiper.min.js"></script>
+	
 	<script>
 		$(function() {
 			$('#fullPage').fullpage({
@@ -588,6 +590,7 @@
 				controlArrow: false, //定义是否通过箭头来控制slide
 				slidesNavigation: true, //是否显示横向幻灯片的导航
 				slidesNavPosition: 'bottom', //横向幻灯片位置
+				scrollOverflow: true,//内容超过满屏后是否显示滚动条，
 				normalScrollElements: '#cboxLoadedContent,#cboxOverlay', //避免自动滚动，滚动时的一些元素
 				navigationTooltips: ['index', 'technology', 'case', 'about', 'join'], //导航小圆点的提示
 			});
@@ -613,38 +616,13 @@
 				});
 			});
 		});
+		var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
 	</script>
-	<!-- <script>
-		var swiper = new Swiper('#kuang', {
-			direction: 'vertical',
-			initialSlide: 0,
-			noSwiping: true
-		});
-		var touchOption={touchStartX:0,startTranslateX:0,moveDistance:0};
-		var touchstart, touchmove, touchend;
-		outerDiv.addEventListener('touchstart',function(){
-		$(this).removeClass('transition');//移除动画效果，否则移动时图片会颤动
-		touchOption.touchStartX = e.touches[0].clientX;
-		        if ($(this).css("-webkit-transform") == 'none') {
-		          touchOption.startTranslateX = 0;
-		        }
-		        else {
-		          //css-webkit-transform属性值格式：matrix(1, 0, 0, 1, -4140, 0)
-		          var transfrom_info = $('#kuang').css("-webkit-transform").split(',')[4];//获取当前outerDiv的x轴坐标
-		          touchOption.startTranslateX = parseInt(transfrom_info);
-		        }
-		},false);
-		outerDiv.addEventListener('touchmove',function(){
-		       touchOption.moveDistance = (e.touches[0].clientX - touchOption.touchStartX);
-		        var TranslateX = touchOption.startTranslateX + touchOption.moveDistance;
-		        $(this).css('-webkit-transform', 'translateX('+ TranslateX +'px) translateZ(0)'); //移动图片
-		},false);
-		outerDiv.addEventListener('touchend',function(){
-		      $(this).addClass('transition);//添加动画效果
-		       var moveX=100;//此处计算移动移动下一张图片还是退货当前图片代码省略       
-		        $(this).css('-webkit-transform', 'translateX('+ moveX +'px) translateZ(0)'); //移动图片
-		},false);
-	</script> -->
 	<script>
 		function first() {
 			document.getElementById("caidan").style.display = "none";
@@ -662,34 +640,7 @@
 
 		}
 	</script>
-	<script>
-	var swiper = new Swiper('#kuang', {
-	    direction: 'vertical',
-		 initialSlide : 0,
-	           
-	            noSwiping : true
-	});
-	var startScroll, touchStart, touchCurrent;
-	swiper.slides.on('touchstart', function (e) {
-	    startScroll = this.scrollTop;
-	    touchStart = e.targetTouches[0].pageX;
-	}, true);
-	swiper.slides.on('touchmove', function (e) {
-	    touchCurrent = e.targetTouches[0].pageX;
-	    var touchesDiff = touchCurrent - touchStart;
-	    var slide = this;
-	    var onlyScrolling = 
-	            ( slide.scrollHeight > slide.offsetHeight ) &&
-	            (
-	                ( touchesDiff < 0 && startScroll === 0 ) ||
-	                ( touchesDiff > 0 && startScroll === ( slide.scrollHeight - slide.offsetHeight ) ) ||
-	                ( startScroll > 0 && startScroll < ( slide.scrollHeight - slide.offsetHeight ) )
-	            );
-	    if (onlyScrolling) {
-	        e.stopPropagation();
-	    }
-	}, true);
-	</script>
+
 	<!-- Initialize Swiper -->
 	<script>
 		var swiper = new Swiper('.swiper-container', {
