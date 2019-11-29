@@ -853,23 +853,25 @@
 	}
 	
 	/* 蒙版 */
-	.about-mask {
+	/* .about-mask {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
+		position: absolute;
 	}
 	
 	.about-mask:hover {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0);
-	}
+	} */
 	
 	/* 文字 */
 	.mask-text {
 		padding-top: 2%;
 		padding-left: 2%;
 		color: #000000;
+		position: absolute;
 	}
 	
 	/* 公司简介 */
@@ -880,13 +882,21 @@
 		transition: .5s;
 		float: left;
 		/* background-color: darkred; */
-		background: url(../img/gongsijianjie.jpg) center;
+		/* background: url(../img/gongsijianjie.jpg) center;
 		background-size: 100% 100%;
-		z-index: 2;
+		z-index: 2; */
 	}
 	
-	.about-left:hover {
+	/* .about-left:hover {
 		width: 120%;
+		height: 40rem;
+	} */
+	.about-left img{
+		width: 100%;
+		height: 100%;
+	}
+	 .about-left img:hover {
+		width: 130%;
 		height: 40rem;
 	}
 	
@@ -898,18 +908,32 @@
 		transition: .5s;
 		margin: 0 auto;
 		/* background-color: green; */
-		background: url(../img/pinpaiwenhua.jpg) center;
-		background-size: 100% 100%;
+		/* background: url(../img/pinpaiwenhua.jpg) center;
+		background-size: 100% 100%; */
 	}
 	
-	.about-center:hover {
+	/* .about-center:hover {
 		width: 155%;
 		height: 40rem;
 		z-index: 2;
 		margin-left: -50%;
 		display: inline-block !important;
 		display: inline;
+	} */
+	.about-center img {
+		width: 100%;
+		height: 100%;
 	}
+	
+	.about-center img:hover {
+		width: 160%;
+		height: 40rem;
+		z-index: 2;
+		margin-left: -50%;
+		display: inline-block !important;
+		display: inline;
+	}
+	
 	
 	/* 团队介绍 */
 	.about-right {
@@ -919,19 +943,29 @@
 		transition: .5s;
 		float: right;
 		/* background-color: blueviolet; */
-		background: url(../img/tuandui.jpg) center;
+		/* background: url(../img/tuandui.jpg) center;
 		background-size: 100% 100%;
-		z-index: 1;
+		z-index: 1; */
 	}
 	
-	.about-right:hover {
+	/* .about-right:hover {
 		width: 120%;
+		height: 40rem;
+	} */
+	.about-right img {
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	
+	.about-right img:hover {
+		width: 130%;
 		height: 40rem;
 	}
 	
 	.mask-text {
-		padding-top: 50%;
-		padding-left: 20%;
+		position: absolute;
+		top: 50%;
 	}
 	
 	.mask-text>h2>a {
@@ -987,8 +1021,7 @@
 	.mask-pic {
 		width: 100%;
 		height:40rem;
-		position: absolute;
-		top: 20%;
+		align-items: center;
 	}
 
 	.heit-bottom {
@@ -1100,7 +1133,7 @@
 	}
 
 	/* 蒙版 */
-	.about-mask {
+/* 	.about-mask {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
@@ -1110,7 +1143,7 @@
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0);
-	}
+	} */
 
 	/* 公司简介 */
 	.about-left {
@@ -1118,7 +1151,16 @@
 		height: 40rem;
 	}
 
-	.about-left:hover {
+/* 	.about-left:hover {
+		width: 120%;
+		height: 40rem;
+	} */
+	
+	.about-left img{
+		width: 100%;
+		height: 100%;
+	}
+	 .about-left img:hover {
 		width: 120%;
 		height: 40rem;
 	}
@@ -1129,7 +1171,17 @@
 		height: 40rem;
 	}
 
-	.about-center:hover {
+/* 	.about-center:hover {
+		width: 155%;
+		height: 40rem;
+	} */
+	
+	.about-center img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.about-center img:hover {
 		width: 155%;
 		height: 40rem;
 	}
@@ -1140,7 +1192,18 @@
 		height: 40rem;
 	}
 
-	.about-right:hover {
+	/* .about-right:hover {
+		width: 120%;
+		height: 40rem;
+	} */
+	
+	.about-right img {
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	
+	.about-right img:hover {
 		width: 120%;
 		height: 40rem;
 	}
@@ -1148,6 +1211,7 @@
 	.mask-text {
 		padding-top: 55%;
 		padding-left: 20%;
+		position: absolute;
 	}
 
 	.text-black {
@@ -1164,7 +1228,7 @@
 		width: 100%;
 		height: 35%;
 		/* background-color: #fff; */
-		margin-top: 3%;
+		margin-top: -10%;
 	}
 
 	.code {
@@ -1176,9 +1240,9 @@
 	/* 地址 */
 	.site {
 		width: 100%;
-		height: 45.5%;
+		height:30%;
 		background-color: #222222;
-		margin-top: -10%;
+		margin-top: -5%;
 	}
 
 	.site-text-top {
@@ -1190,7 +1254,7 @@
 
 	.site-text-bottom {
 		text-align: center;
-		padding-top: 5%;
+		padding-top: 2%;
 		font-size: 2rem;
 		color: #fff;
 	}
@@ -1200,8 +1264,7 @@
 	.mask-pic {
 		width: 100%;
 		height: 80%;
-		position: absolute;
-		top: 15%;
+		align-items: center;
 	}
 
 	#fp-nav {
@@ -1311,7 +1374,7 @@
 	}
 
 	/* 蒙版 */
-	.about-mask {
+	/* .about-mask {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
@@ -1321,7 +1384,7 @@
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0);
-	}
+	} */
 
 	/* 公司简介 */
 	.about-left {
@@ -1329,7 +1392,16 @@
 		height: 40rem;
 	}
 
-	.about-left:hover {
+	/* .about-left:hover {
+		width: 120%;
+		height: 40rem;
+	} */
+	
+	.about-left img{
+		width: 100%;
+		height: 100%;
+	}
+	 .about-left img:hover {
 		width: 120%;
 		height: 40rem;
 	}
@@ -1340,18 +1412,39 @@
 		height: 40rem;
 	}
 
-	.about-center:hover {
+	/* .about-center:hover {
+		width: 155%;
+		height: 40rem;
+	}*/
+ 
+	.about-center img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.about-center img:hover {
 		width: 155%;
 		height: 40rem;
 	}
-
+	
 	/* 团队介绍 */
 	.about-right {
 		width: 100%;
 		height: 40rem;
 	}
 
-	.about-right:hover {
+	/* .about-right:hover {
+		width: 120%;
+		height: 40rem;
+	} */
+	
+	.about-right img {
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	
+	.about-right img:hover {
 		width: 120%;
 		height: 40rem;
 	}
@@ -1359,6 +1452,7 @@
 	.mask-text {
 		padding-top: 50%;
 		padding-left: 20%;
+		position: absolute;
 	}
 
 	.text-black {
@@ -1405,6 +1499,12 @@
 }
 
 @media screen and (min-width:1535px) and (max-width:1900px) {
+	.mask-pic {
+		width: 100%;
+		height:45rem;
+		position: absolute;
+		top: 10%;
+	}
 	.section {
 		height: 50rem;
 	}
@@ -1506,7 +1606,98 @@
 	.fp-controlArrow.fp-next {
 		display: inline;
 	}
-
+	
+	/* 关于广景 */
+	.about-global {
+		width: 33%;
+		height: 40rem;
+	}
+	
+	/* 蒙版 */
+	/* .about-mask {
+		width: 100%;
+		height: 40rem;
+		background: rgba(192, 192, 192, 0.3);
+	}
+	
+	.about-mask:hover {
+		width: 100%;
+		height: 40rem;
+		background: rgba(192, 192, 192, 0);
+	} */
+	
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 40rem;
+	}
+	
+	/* .about-left:hover {
+		width: 120%;
+		height: 40rem;
+	} */
+	
+	.about-left img{
+		width: 100%;
+		height: 100%;
+	}
+	 .about-left img:hover {
+		width: 120%;
+		height: 40rem;
+	}
+	
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 40rem;
+	}
+	
+	/* .about-center:hover {
+		width: 155%;
+		height: 40rem;
+	}*/
+	 
+	.about-center img {
+		width: 100%;
+		height: 100%;
+	}
+	
+	.about-center img:hover {
+		width: 155%;
+		height: 40rem;
+	}
+	
+	/* 团队介绍 */
+	.about-right {
+		width: 100%;
+		height: 40rem;
+	}
+	
+	/* .about-right:hover {
+		width: 120%;
+		height: 40rem;
+	} */
+	
+	.about-right img {
+		width: 100%;
+		height: 100%;
+		float: right;
+	}
+	
+	.about-right img:hover {
+		width: 120%;
+		height: 40rem;
+	}
+	
+	.mask-text {
+		padding-top: 60%;
+		padding-left: 20%;
+		position: absolute;
+	}
+	
+	.text-black {
+		font-size: 20px;
+	}
 	/* 加入我们----------------------------------------*/
 	/* 名片 */
 	.visitingCard {

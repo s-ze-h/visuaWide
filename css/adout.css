@@ -45,7 +45,7 @@ body {
 }
 .return a {
 	color: #fff;
-	font-family: "楷体";
+	/* font-family: "楷体"; */
 	font-size: 25px;
 }
 .team {
@@ -225,7 +225,7 @@ body {
 	}
 	.return a {
 		color: #fff;
-		font-family: "楷体";
+		/* font-family: "楷体"; */
 		font-size: 35px;
 	}
 }
@@ -265,7 +265,7 @@ body {
 	}
 	.return a {
 		color: #fff;
-		font-family: "楷体";
+		/* font-family: "楷体"; */
 		font-size: 45px;
 	} 
 }
@@ -305,7 +305,7 @@ body {
 	}
 	.return a {
 		color: #fff;
-		font-family: "楷体";
+		/* font-family: "楷体"; */
 		font-size: 45px;
 	} 
 }
