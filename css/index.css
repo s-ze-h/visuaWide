@@ -52,15 +52,11 @@
 
 /* section ...............................................*/
 .section {
-	/* text-align: center; */
 	font: 50px "Microsoft Yahei";
 	color: #fff;
 	height: 52rem;
 }
 
-/* .section p{
-	font: 25px "Microsoft Yahei";
-	} */
 
 /* 文字............................................................. */
 .mask {
@@ -73,9 +69,6 @@
 	-webkit-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-	/* background: #222222; */
-	/* background: url(../img/index.jpg) center;
-	background-size: 100% 100%; */
 }
 
 .mask-pic {
@@ -98,7 +91,6 @@
 	bottom:2px;
 	text-align: center;
 	z-index: 1;
-	/* background-color: #0000FF; */
 }
 
 .heit a {
@@ -119,7 +111,6 @@
 	position: absolute;
 	bottom: 2px;
 	text-align: center;
-	/* z-index: 1; */
 }
 
 .heit-bottom a {
@@ -188,42 +179,6 @@
 }
 
 /* 核心技术................................................ */
-/* .display {
-	display: none;
-}
-
-#all-algorithm {
-	display: none;
-}
-
-.technology-top {
-	width: 100%;
-	height: 5.25rem;
-	float: left;
-	position: absolute;
-	top: 8%;
-}
-
-.technology-bottom {
-	width: 100%;
-	height: 66rem;
-	float: left;
-	position: absolute;
-	top: 12%;
-}
-
-.technology-classification {
-	width: 100%;
-	height: 63rem;
-}
-
-.technology-classification1 {
-	width: 20.5%;
-	height: 25rem;
-	margin-left: 4%;
-	margin-top: 3%;
-}
- */
 .technology-pic {
 	width: 100%;
 	height: 100%;
@@ -244,7 +199,6 @@
 	margin-top: 0%;
 	font-size: 18px;
 	background: #fff;
-	/* Center slide text vertically */
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
@@ -272,14 +226,6 @@
 	width: 100%;
 }
 
-/* 
-.technology-color {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(128, 128, 128, 0.3);
-} */
-
 .technology-text-one {
 	font-size: 3rem;
 }
@@ -297,10 +243,6 @@
 }
 
 /* 应用案例............................................... */
-/* .white{
-	color: #fff;
-	text-align: center;
-} */
 .fp-controlArrow.fp-next {
 	right: 2.7rem;
 }
@@ -334,11 +276,7 @@
 	width: 45%;
 	height: 50%;
 	text-align: center;
-	/* background: #C0C4CC; */
-	/* opacity: 0.3;
-	border-radius: 100%; */
 	padding-top: 100px;
-	/* margin-left: 60px; */
 	z-index: 5;
 }
 
@@ -366,7 +304,6 @@
 	width: 33%;
 	height: 49rem;
 	float: left;
-	/* background-color:#fff; */
 	margin-left: 0.3%;
 }
 
@@ -399,10 +336,6 @@
 	position: relative;
 	transition: .5s;
 	float: left;
-	/* background-color: darkred; */
-/* 	background: url(../img/gongsijianjie.jpg) center;
-	background-size: 100% 100%; */
-	/* z-index: 2; */
 }
 
 /* .about-left:hover {
@@ -426,9 +359,6 @@
 	align-items: center;
 	transition: .5s;
 	margin: 0 auto;
-	/* background-color: green; */
-	/* background: url(../img/pinpaiwenhua.jpg) center;
-	background-size: 100% 100%; */
 }
 .about-center img {
 	width: 100%;
@@ -451,10 +381,6 @@
 	position: relative;
 	transition: .5s;
 	float: right;
-	/* background-color: blueviolet; */
-	/* background: url(../img/tuandui.jpg) center; */
-	/* background-size: 100% 100%; */
-	/* z-index: 1; */
 }
 
 .about-right img {
@@ -600,7 +526,6 @@
 .join-in {
 	width: 60%;
 	height: 60%;
-	/* background-color: #982016; */
 	margin-left: 20%;
 	margin-top: 4%;
 }
