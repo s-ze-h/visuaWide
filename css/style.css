@@ -7,7 +7,7 @@
 		height: 80px;
 		top: 5px;
 		left: 5px;
-		z-index: 10;
+		z-index: 20;
 		-webkit-transition: all 0.5s ease-in-out;
 		-moz-transition: all 0.5s ease-in-out;
 		-o-transition: all 0.5s ease-in-out;
@@ -36,7 +36,6 @@
 	.navbar.main {
 		position: absolute;
 		top: 35px;
-		z-index: 2;
 		background-color: rgba(0, 0, 0, 0.4);
 	}
 	/* 首页 */
@@ -94,7 +93,7 @@
 		position: absolute;
 		top: 75%;
 		left: 0;
-		z-index: 1000;
+		z-index:2;
 		display: none;
 		float: left;
 		min-width: 160px;
@@ -318,14 +317,14 @@
 	.menu {
 		position: absolute;
 		right: 50px;
-		top: -10px;
+		top: 0px;
 	}
 
 	.dropdown-menu {
 		position: absolute;
 		top: 75%;
 		left: 0;
-		z-index: 1000;
+		z-index:2;
 		display: none;
 		float: left;
 		min-width: 160px;
@@ -555,7 +554,7 @@
 		position: absolute;
 		top: 75%;
 		left: 0;
-		z-index: 1000;
+		z-index:2;
 		display: none;
 		float: left;
 		min-width: 160px;
@@ -703,6 +702,9 @@
 	}
 }
 @media screen and (min-width:768px) and (max-width:1024px) {
+	#index-nav {
+		padding-left:30%;
+	}
 	.mask-pic {
 		width: 100%;
 		height: 25rem;
@@ -834,7 +836,7 @@
 	}
 	
 	/* 蒙版 */
-	/* .about-mask {
+	.about-mask {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
@@ -845,7 +847,7 @@
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0);
-	} */
+	}
 	
 	/* 文字 */
 	.mask-text {
@@ -970,6 +972,9 @@
 	}
 }
 @media screen and (min-width:1024px) and (max-width:1440px) {
+	#index-nav {
+		padding-left:20%;
+	}
 	.mask-pic {
 		width: 100%;
 		height:40rem;
@@ -1082,7 +1087,7 @@
 	}
 
 	/* 蒙版 */
-/* 	.about-mask {
+	.about-mask {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
@@ -1092,7 +1097,7 @@
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0);
-	} */
+	}
 
 	/* 公司简介 */
 	.about-left {
@@ -1195,6 +1200,9 @@
 }
 
 @media screen and (min-width:1440px) and (max-width:1535px) {
+	#index-nav {
+		padding-left:30%;
+	}
 	.mask-pic {
 		width: 100%;
 		height: 80%;
@@ -1303,7 +1311,7 @@
 	}
 
 	/* 蒙版 */
-	/* .about-mask {
+	.about-mask {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
@@ -1313,7 +1321,7 @@
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0);
-	} */
+	}
 
 	/* 公司简介 */
 	.about-left {
@@ -1523,7 +1531,7 @@
 	}
 	
 	/* 蒙版 */
-	/* .about-mask {
+	.about-mask {
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
@@ -1533,7 +1541,7 @@
 		width: 100%;
 		height: 40rem;
 		background: rgba(192, 192, 192, 0);
-	} */
+	}
 	
 	/* 公司简介 */
 	.about-left {

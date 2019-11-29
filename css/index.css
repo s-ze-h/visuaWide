@@ -11,6 +11,7 @@
 	/* top: 40px; */
 	background: rgba(35, 38, 46, 0.5);
 	padding: 0;
+	padding-left:70%;
 	text-align: -webkit-right;
 	z-index: 10;
 	-webkit-transform: translateY(0%);
@@ -69,6 +70,14 @@
 	-webkit-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+	z-index:20;
+}
+
+.mask-index{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index:2000;
 }
 
 .mask-pic {
@@ -308,7 +317,7 @@
 }
 
 /* 蒙版 */
-/* .about-mask {
+ .about-mask {
 	width: 100%;
 	height: 49rem;
 	background: rgba(192, 192, 192, 0.3);
@@ -320,7 +329,7 @@
 	height: 49rem;
 	background: rgba(192, 192, 192, 0);
 	position: absolute;
-} */
+}
 
 /* 文字 */
 .mask-text {
@@ -346,10 +355,10 @@
 	width: 100%;
 	height: 100%;
 }
- .about-left img:hover {
+ /* .about-left img:hover {
 	width: 130%;
 	height: 49rem;
-}
+} */
 
 /* 品牌文化 */
 .about-center {
@@ -365,14 +374,14 @@
 	height: 100%;
 }
 
-.about-center img:hover {
+/* .about-center img:hover {
 	width: 150%;
 	height: 49rem;
 	z-index:2;
 	margin-left: -50%;
 	display: inline-block !important;
 	display: inline;
-}
+} */
 
 /* 团队介绍 */
 .about-right {
@@ -389,10 +398,10 @@
 	float: right;
 }
 
-.about-right img:hover {
+/* .about-right img:hover {
 	width: 120%;
 	height: 49rem;
-}
+} */
 
 .mask-text {
 	padding-top: 50%;
