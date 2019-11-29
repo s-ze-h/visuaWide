@@ -17,7 +17,7 @@
 
 	/* 提示 */
 	.heit {
-		display: inline;
+		display: inline; 
 	}
 
 	.heit-bottom {
@@ -39,12 +39,10 @@
 		z-index: 2;
 		background-color: rgba(0, 0, 0, 0.4);
 	}
-
-
 	/* 首页 */
 	.mask-pic {
 		width: 100%;
-		height: 25%;
+		height: 33%;
 		/* align-items: center; */
 		position: absolute;
 		top: 30%;
@@ -206,8 +204,6 @@
 	.fp-controlArrow.fp-next {
 		display: none;
 	}
-
-
 	/* 关于广景 */
 	.about-front {
 		display: none;
@@ -216,75 +212,47 @@
 	.move {
 		display: inline;
 	}
-	#kuang {
-		border: 1px solid #000;
+	/* ---- */
+	#fp-nav {
+		display: none;
+	}
+	
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
 		width: 100%;
-		height: 300px;
-		overflow:auto;
-		position: absolute;
-		top: 20%;
+		height: 30%;
+		/* background-color: #fff; */
+		margin-top: 5%;
 	}
 	
-	.move-left img:hover {
-		/*鼠标悬浮时，生成阴影轮廓*/
-		box-shadow: 0px 0px 0px 0px #000000;
-	}
-	
-	.move-left img {
-		width: 100%;
-		border-radius: 5px;
-		margin-top: 0px;
-		float: left;
-	}
-	
-	.move-global {
-		/*设置内部嵌套的div宽度（大于外部div宽度）*/
-		height:300px ;
-		width: 300%;
-	}
-	
-	.move-left {
-		width: 30%;
-		height: 100%;
-		float: left;
-		text-align: center;
-		/* background-color: #009E94; */
-	}
-	
-	.move-left>h2>a {
-		width: 35%;
-		color: #000000;
-		font-size: 1.5rem;
-		position: absolute;
-		top: 35%;
-		left: 30%;
-		text-align: center;
-		/* background-color: #0000FF; */
-	}
-	
-	.center-text {
+	.code {
 		width: 50%;
-		position: absolute;
-		top: 35%;
-		margin-left: 15%;
-		
-	}
-	.center-text>h2{
-		color: #000;
-		font-size: 1.2rem;
-		
-	}
-	.center-text>p{
-		color: #000;
-		font-size: 1rem;
-	}
-	.move-text>h2>a {
-		color: #fff;
-		font-size: 1.5rem;
+		height: 100%;
+		margin-left: 27%;
 	}
 	
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+	}
+	
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
+	}
+	
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: ##fff;
+	}
 }
-
 
 @media screen and (min-width:375px) and (max-width:426px) {
 	.mask-pic {
@@ -479,13 +447,51 @@
 	.move {
 		display: inline;
 	}
+	#fp-nav {
+		display: none;
+	}
 	
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
+		width: 100%;
+		height: 30%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+	
+	.code {
+		width: 50%;
+		height: 12rem;
+		margin-left: 25%;
+	}
+	
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 20rem;
+		background-color: #222222;
+		margin-top:5%;
+	}
+	
+	.site-text-top {
+		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
+	}
+	
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: #fff;
+	}
 }
-
 @media screen and (min-width:426px) and (max-width:767px) {
 	.mask-pic {
 		width: 100%;
-		height: 30%;
+		height: 15rem;
 		position: absolute;
 		top: 35%;
 	}
@@ -578,7 +584,7 @@
 	}
 
 	.image {
-		height: 100%;
+		height: 30rem;
 		align-items: center;
 	}
 
@@ -602,7 +608,7 @@
 		text-align: center;
 		padding: 1% 0;
 		background-color: rgba(0, 0, 0, 0.5);
-		margin-top: 50%;
+		margin-top: 15rem;
 	}
 
 	/* 应用案例	 */
@@ -626,7 +632,7 @@
 
 	.case-rectangle {
 		width: 100%;
-		height: 35%;
+		height: 11rem;
 		/* background-color:#C0C4CC; */
 		margin-left: 0%;
 		margin-top: 100px;
@@ -650,7 +656,7 @@
 
 	.case-text {
 		text-indent: 2em;
-		font-size: 0.9rem;
+		font-size: 20px;
 		font-family: "幼圆";
 	}
 
@@ -670,161 +676,51 @@
 	.move {
 		display: inline;
 	}
-}
-@media screen and (min-width:570px) and (max-width:768px) {
-	/* 核心技术 */
-	.move-technology {
-		display: inline;
-	}
-	
-	.swiper-container {
+	/* --- */
+	#fp-nav {
 		display: none;
 	}
 	
-	.btn {
-		background-color: rgba(0, 0, 0, 0.6);
-		color: #fff;
-	}
-	
-	.btn:hover {
-		background-color: rgba(0, 0, 0, 0.6);
-		color: #fff;
-	}
-	
-	.pull-menu {
-		height: 0%;
-		align-items: center;
-	}
-	
-	.pull-menu div img {
-		background-color: rgba(0, 0, 0, 0.6);
-		color: #fff;
-	}
-	
-	.menu {
-		position: absolute;
-		right: 50px;
-		top: -10px;
-	}
-	
-	.dropdown-menu {
-		position: absolute;
-		top: 75%;
-		left: 0;
-		z-index: 1000;
-		display: none;
-		float: left;
-		min-width: 160px;
-		padding: 6x 0;
-		margin: 10px 0 0;
-		font-size: 14px;
-		text-align: left;
-		list-style: none;
-		background-color: rgba(0, 0, 0, 0.6);
-		-webkit-background-clip: padding-box;
-	}
-	
-	.dropdown-menu>li>a {
-		color: #fff;
-		padding: 3px 20px;
-	}
-	
-	.image {
-		height:100%;
-		align-items: center;
-	}
-	
-	.technology-strip {
-		height: 60px;
-	}
-	
-	.technology-text-one {
-		font-size: 15px;
-	}
-	
-	.technology-text-two {
-		font-size: 15px;
-	}
-	
-	.technology-strip {
-		position: absolute;
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
 		width: 100%;
-		/* height: 14%; */
-		align-items: center;
+		height: 30%;
+		/* background-color: #fff; */
+		margin-top: 5%;
+	}
+	
+	.code {
+		width: 18rem;
+		height: 18rem;
+		margin-left:25%;
+	}
+	
+	/* 地址 */
+	.site {
+		width: 100%;
+		height: 45.5%;
+		background-color: #222222;
+	}
+	
+	.site-text-top {
 		text-align: center;
-		padding: 1% 0;
-		background-color: rgba(0, 0, 0, 0.5);
-		margin-top: 50%;
-	}
-}
-@media screen and (min-width:596px) and (max-width:639px) {
-	.case-rectangle {
-		width: 100%;
-		height: 55%;
-		/* background-color:#C0C4CC; */
-		margin-left: 0%;
-		margin-top: 100px;
-		padding: 10px;
-	}
-	.case-text {
-		text-indent: 2em;
-		font-size: 1.2rem;
-		font-family: "幼圆";
-	}
-}
-@media screen and (min-width:639px) and (max-width:746px) {
-	.case-rectangle {
-		width: 100%;
-		height: 56%;
-		/* background-color:#C0C4CC; */
-		margin-left: 0%;
-		margin-top: 100px;
-		padding: 10px;
-	}
-	.case-text {
-		text-indent: 2em;
-		font-size: 1.3rem;
-		font-family: "幼圆";
-	}
-}
-@media screen and (min-width:746px) and (max-width:767px) {
-	.case-rectangle {
-		width: 100%;
-		height: 45%;
-		/* background-color:#C0C4CC; */
-		margin-left: 0%;
-		margin-top: 100px;
-		padding: 10px;
-	}
-	.case-text {
-		text-indent: 2em;
-		font-size: 1.3rem;
-		font-family: "幼圆";
-	}
-}
-
-@media screen and (min-width:768px) and (max-width:769px) {
-
-	/* 蒙版 */
-	.about-mask {
-		width: 100%;
-		height: 25rem;
-		background: rgba(192, 192, 192, 0.3);
-		margin-top: 20%;
-	}
-
-	.about-mask:hover {
-		width: 100%;
-		height: 25rem;
-		background: rgba(192, 192, 192, 0);
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
 	}
 	
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: #fff;
+	}
 }
-
 @media screen and (min-width:768px) and (max-width:1024px) {
 	.mask-pic {
 		width: 100%;
-		height: 52%;
+		height: 25rem;
 		/* align-items: center; */
 		position: absolute;
 		top: 25%;
@@ -863,7 +759,7 @@
 		text-align: center;
 		padding: 1% 0;
 		background-color: rgba(0, 0, 0, 0.5);
-		margin-top: 00%;
+		margin-top: 0%;
 	}
 	
 	.technology-text-one {
@@ -877,11 +773,13 @@
 	.white {
 		font-size: 2rem;
 	}
-
+	.swiper-pagination-bullet {
+	    display: none;
+	}
 	.text-p {
 		font-size: 10px;
 	}
-
+	
 	.case-circle {
 		width: 45%;
 		height: 50%;
@@ -939,235 +837,156 @@
 
 	/* 关于广景 */
 	.about-front {
-		display: none;
+		display: inline
 	}
 	
 	.move {
+		display: none;
+	}
+	.about-global {
+		width: 33%;
+		height: 40rem;
+		float: left;
+		/* background-color:#fff; */
+		margin-left: 0.3%;
+		margin-top: 8rem;
+	}
+	
+	/* 蒙版 */
+	.about-mask {
+		width: 100%;
+		height: 40rem;
+		background: rgba(192, 192, 192, 0.3);
+	}
+	
+	.about-mask:hover {
+		width: 100%;
+		height: 40rem;
+		background: rgba(192, 192, 192, 0);
+	}
+	
+	/* 文字 */
+	.mask-text {
+		padding-top: 2%;
+		padding-left: 2%;
+		color: #000000;
+	}
+	
+	/* 公司简介 */
+	.about-left {
+		width: 100%;
+		height: 40rem;
+		position: relative;
+		transition: .5s;
+		float: left;
+		/* background-color: darkred; */
+		background: url(../img/gongsijianjie.jpg) center;
+		background-size: 100% 100%;
+		z-index: 2;
+	}
+	
+	.about-left:hover {
+		width: 120%;
+		height: 40rem;
+	}
+	
+	/* 品牌文化 */
+	.about-center {
+		width: 100%;
+		height: 40rem;
+		position: relative;
+		transition: .5s;
+		margin: 0 auto;
+		/* background-color: green; */
+		background: url(../img/pinpaiwenhua.jpg) center;
+		background-size: 100% 100%;
+	}
+	
+	.about-center:hover {
+		width: 155%;
+		height: 40rem;
+		z-index: 2;
+		margin-left: -50%;
+		display: inline-block !important;
 		display: inline;
 	}
 	
-}
-
-@media screen and (min-width:800px) and (max-width:900px) {
-	.mask-pic {
+	/* 团队介绍 */
+	.about-right {
 		width: 100%;
-		height: 55%;
-		position: absolute;
-		top: 20%;
-	}
-}
-@media screen and (min-width:639px) and (max-width:768px) {
-	.move-about {
-		width: 100%;
-		height: 5rem;
-		font-size: 1.5rem;
-		text-align: center;
-		padding-top: 2%;
-		color: #fff;
-		background-color: #222222;
-	}
-	
-	.move-about h1 {}
-	
-	.masked-intro {
-		width: 100%;
-		height: 25rem;
-		padding-top: 5%;
-		margin-top: -6%;
-		background-color: rgba(0, 0, 0, 0.4);
-	}
-	
-	.move-intro {
-		width: 80%;
-		height: 25rem;
-		padding-top: 5%;
-		margin-left: 10%;
-		color: #fff;
-		text-align: left;
-		background: url(../img/gongsijianjie.jpg) center;
+		height: 40rem;
+		position: relative;
+		transition: .5s;
+		float: right;
+		/* background-color: blueviolet; */
+		background: url(../img/tuandui.jpg) center;
 		background-size: 100% 100%;
+		z-index: 1;
 	}
 	
-	.top-line {
-		width: 10%;
-		border: 2px solid #fff;
+	.about-right:hover {
+		width: 120%;
+		height: 40rem;
 	}
 	
-	.move-intro h3 {
-		font-size: 1.5rem;
+	.mask-text {
+		padding-top: 50%;
+		padding-left: 20%;
 	}
 	
-	.move-intro p {
-		font-size: 1rem;
-		padding: 0 20px;
-		text-indent: 2em;
+	.mask-text>h2>a {
+		color: #000000;
 	}
 	
-	.move-brand {
-		width: 80%;
-		height: 20rem;
-		padding-top: 5%;
-		margin-left: 10%;
-		color: #fff;
-		text-align: left;
-		background-color: rgba(85, 85, 85, 0.5);
-		background-size: 100% 100%;
-	}
-	
-	.move-brand h3 {
-		font-size: 1.5rem;
-	}
-	
-	.move-brand p {
-		font-size: 1rem;
-		padding: 0 20px;
-		text-indent: 2em;
-	}
-	
-	.masked-team {
-		width: 100%;
-		height: 23rem;
-		padding-top: 10%;
-		margin-top: -20%;
-		background-color: rgba(0, 0, 0, 0.4);
-	}
-	
-	.move-team {
-		width: 80%;
-		height: 20rem;
-		padding-top: 10%;
-		margin-left: 10%;
-		color: #fff;
-		background: url(../img/team.jpg) center;
-		background-size: 100% 100%;
-	}
-	
-	.center-line {
-		width: 10%;
-		margin-left: 44%;
-		border: 2px solid #fff;
-	}
-	
-	.move-team h3 {
-		font-size: 1.5rem;
-		text-align: center;
-	}
-	
-	.move-team p {
-		font-size: 1rem;
-		padding: 0 20px;
-		text-indent: 2em;
-	}
-}
-@media screen and (min-width:768px) and (max-width:1024px) {
-	.move-about {
+	.display {
 		display: none;
 	}
 	
-	
-	.masked-intro {
+	.about-behind {
 		width: 100%;
-		height: 25rem;
-		padding-top: 5%;
-		margin-top: -6%;
-		background-color: rgba(0, 0, 0, 0.4);
+		height: 40rem;
+		background: #007AFF;
 	}
-	
-	.move-intro {
-		width: 80%;
-		height: 25rem;
-		padding-top:5%;
-		margin-top: 10%;
-		margin-left: 10%;
-		color: #fff;
-		text-align: left;
-		background: url(../img/gongsijianjie.jpg) center;
-		background-size: 100% 100%;
-	}
-	
-	.top-line {
-		width: 10%;
-		border: 2px solid #fff;
-	}
-	
-	.move-intro h3 {
-		font-size: 1.8rem;
-	}
-	
-	.move-intro p {
-		font-size: 1.5rem;
-		padding: 0 20px;
-		text-indent: 2em;
-	}
-	
-	.move-brand {
-		width: 80%;
-		height: 20rem;
-		padding-top: 5%;
-		margin-left: 10%;
-		color: #fff;
-		text-align: left;
-		background-color: rgba(85, 85, 85, 0.5);
-		background-size: 100% 100%;
-	}
-	
-	.move-brand h3 {
-		font-size: 1.8rem;
-	}
-	
-	.move-brand p {
-		font-size: 1.5rem;
-		padding: 0 20px;
-		text-indent: 2em;
-	}
-	
-	.masked-team {
+	/* 加入我们----------------------------------------*/
+	/* 名片 */
+	.visitingCard {
 		width: 100%;
-		height: 23rem;
-		padding-top: 10%;
-		margin-top: -20%;
-		background-color: rgba(0, 0, 0, 0.4);
+		height: 35%;
+		/* background-color: #fff; */
+		margin-top: 15%;
 	}
 	
-	.move-team {
-		width: 80%;
+	.code {
+		width: 20rem;
 		height: 20rem;
-		padding-top: 10%;
-		margin-left: 10%;
-		color: #fff;
-		background: url(../img/team.jpg) center;
-		background-size: 100% 100%;
+		margin-left: 30%;
 	}
 	
-	.center-line {
-		width: 10%;
-		margin-left: 44%;
-		border: 2px solid #fff;
+	/* 地址 */
+	.site {
+		width: 100%;
+		align-items: bottom;
+		background-color: #222222;
 	}
 	
-	.move-team h3 {
-		font-size: 1.8rem;
+	.site-text-top {
 		text-align: center;
+		padding-top: 15%;
+		font-size: 30px;
+		color: #fff;
 	}
 	
-	.move-team p {
-		font-size: 1.5rem;
-		padding: 0 20px;
-		text-indent: 2em;
-	}
-@media screen and (min-width:901px) and (max-width:1024px) {
-	.mask-pic {
-		width: 100%;
-		height: 56%;
-		position: absolute;
-		top: 20%;
+	.site-text-bottom {
+		text-align: center;
+		padding-top: 5%;
+		font-size: 25px;
+		color: #fff;
 	}
 }
-
 @media screen and (min-width:1024px) and (max-width:1440px) {
 	.mask-pic {
 		width: 100%;
-		height: 60%;
+		height:40rem;
 		position: absolute;
 		top: 20%;
 	}
@@ -1192,7 +1011,7 @@
 	/* 核心技术 */
 	.swiper-wrapper {
 		width: 100%;
-		height: 30rem;
+		height: 25rem;
 	}
 
 	.technology-strip {
@@ -1230,36 +1049,28 @@
 
 	.case-rectangle {
 		width: 70%;
-		height: 15%;
+		height: 13%;
 		/* background-color:#C0C4CC; */
 		float: right;
-		margin-top: 135px;
+		margin-top: 10rem;
 		padding: 10px;
 	}
-	.case-rectangle {
-    width: 650px;
-    height: 250px;
-    background-color: rgba(192, 196, 204, 0.5);
-    margin-left:0%;
-    margin-top: 80px;
-    padding: 20px 51px;
-}
 
 	.case-factory {
 		width: 100%;
-		height: 700px;
+		height: 100%;
 		margin-left: 0;
 	}
 
 	.case-military {
 		width: 100%;
-		height: 700px;
+		height: 100%;
 		margin-left: 0;
 	}
 
 	.case-construction {
 		width: 100%;
-		height: 700px;
+		height: 100%;
 		margin-left: 0;
 	}
 
@@ -1284,57 +1095,58 @@
 	/* 关于广景 */
 	.about-global {
 		width: 33%;
-		height: 30rem;
+		height: 40rem;
+		margin-top: 5rem;
 	}
 
 	/* 蒙版 */
 	.about-mask {
 		width: 100%;
-		height: 30rem;
+		height: 40rem;
 		background: rgba(192, 192, 192, 0.3);
 	}
 
 	.about-mask:hover {
 		width: 100%;
-		height: 30rem;
+		height: 40rem;
 		background: rgba(192, 192, 192, 0);
 	}
 
 	/* 公司简介 */
 	.about-left {
 		width: 100%;
-		height: 30rem;
+		height: 40rem;
 	}
 
 	.about-left:hover {
 		width: 120%;
-		height: 30rem;
+		height: 40rem;
 	}
 
 	/* 品牌文化 */
 	.about-center {
 		width: 100%;
-		height: 30rem;
+		height: 40rem;
 	}
 
 	.about-center:hover {
 		width: 155%;
-		height: 30rem;
+		height: 40rem;
 	}
 
 	/* 团队介绍 */
 	.about-right {
 		width: 100%;
-		height: 30rem;
+		height: 40rem;
 	}
 
 	.about-right:hover {
 		width: 120%;
-		height: 30rem;
+		height: 40rem;
 	}
 
 	.mask-text {
-		padding-top: 50%;
+		padding-top: 55%;
 		padding-left: 20%;
 	}
 
@@ -1352,13 +1164,13 @@
 		width: 100%;
 		height: 35%;
 		/* background-color: #fff; */
-		margin-top: 5%;
+		margin-top: 3%;
 	}
 
 	.code {
-		width: 35%;
-		height: 100%;
-		margin-left: 33%;
+		width:22rem;
+		height: 22rem;
+		margin-left: 37%;
 	}
 
 	/* 地址 */
@@ -1384,48 +1196,6 @@
 	}
 }
 
-@media screen and (min-width:1100px) and (max-width:1200px) {
-	.mask-pic {
-		width: 100%;
-		height: 65%;
-		position: absolute;
-		top: 20%;
-	}
-}
-
-@media screen and (min-width:1200px) and (max-width:1300px) {
-	.mask-pic {
-		width: 100%;
-		height: 65%;
-		position: absolute;
-		top: 15%;
-	}
-
-	/* 名片 */
-	.visitingCard {
-		width: 100%;
-		height: 35%;
-		/* background-color: #fff; */
-		margin-top: 5%;
-	}
-
-	.code {
-		width: 30%;
-		height: 100%;
-		margin-left: 35%;
-	}
-
-}
-
-@media screen and (min-width:1300px) and (max-width:1440px) {
-	.mask-pic {
-		width: 100%;
-		height: 70%;
-		position: absolute;
-		top: 15%;
-	}
-}
-
 @media screen and (min-width:1440px) and (max-width:1535px) {
 	.mask-pic {
 		width: 100%;
@@ -1441,7 +1211,7 @@
 	/* 核心技术 */
 	.swiper-wrapper {
 		width: 100%;
-		height: 40rem;
+		height: 30rem;
 	}
 
 	.technology-strip {
@@ -1493,18 +1263,18 @@
 
 	.case-factory {
 		width: 100%;
-		height: 66rem;
+		height:100%;
 		/* align-items: center; */
 	}
 
 	.case-military {
 		width: 100%;
-		height: 66rem;
+		height:100%;
 	}
 
 	.case-construction {
 		width: 100%;
-		height: 66rem;
+		height:100%;
 	}
 
 	.case-text {
@@ -1515,7 +1285,7 @@
 
 	.case-rectangle {
 		width: 60%;
-		height: 20%;
+		height: 23%;
 		/* background-color: #C0C4CC; */
 		float: right;
 		margin-top: 10%;
@@ -1599,16 +1369,16 @@
 	/* 名片 */
 	.visitingCard {
 		width: 100%;
-		height: 35%;
+		height:10rem;
 		/* background-color: #fff; */
 		margin-top: 0%;
-		margin-left: 5%;
+		margin-left: 2%;
 	}
 
 	.code {
-		width: 30%;
-		height: 100%;
-		margin-left: 30%;
+		width: 20rem;
+		height: 20rem;
+		align-items: center;
 	}
 
 	/* 地址 */
@@ -1616,7 +1386,7 @@
 		width: 100%;
 		height: 35.5%;
 		background-color: #222222;
-		margin-top: 0%;
+		margin-top: 10%;
 	}
 
 	.site-text-top {
@@ -1737,35 +1507,42 @@
 		display: inline;
 	}
 
+	/* 加入我们----------------------------------------*/
 	/* 名片 */
 	.visitingCard {
 		width: 100%;
-		height: 26rem;
+		height:10rem;
 		/* background-color: #fff; */
-		margin-top: 4.5%;
+		margin-top: 0%;
+		margin-left: 2%;
 	}
-
+	
 	.code {
-		width: 25%;
-		height: 100%;
-		margin-left: 38%;
+		width: 20rem;
+		height: 20rem;
+		align-items: center;
 	}
-
+	
 	/* 地址 */
 	.site {
 		width: 100%;
-		height: 27.5rem;
-		/* background-color: #000000; */
+		height: 35.5%;
+		background-color: #222222;
+		margin-top: 10%;
 	}
-
+	
 	.site-text-top {
 		text-align: center;
-		padding-top: 3.5%;
+		padding-top: 5%;
+		font-size: 4rem;
+		color: #fff;
 	}
-
+	
 	.site-text-bottom {
 		text-align: center;
-		padding-top: 1%;
-		font-size: 30px;
+		padding-top: 5%;
+		font-size: 3rem;
+		color: #fff;
 	}
 }
+
