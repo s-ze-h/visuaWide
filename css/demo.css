@@ -70,7 +70,7 @@
    width: 32px;
    height: 32px;
    margin: 16px;
-   cursor: pointer;
+   /* cursor: pointer; */
    transition: fill 0.35s ease-in-out;
  }
  header nav.navigation li svg circle {
@@ -246,7 +246,7 @@
  @media screen and (max-width: 1024px) {
    section.coidea-slider .slider-holder .slider {
      width: 100%;
-     height: 480px;
+     height: 580px;
    }
  }
  @media screen and (max-width: 768px) {
@@ -278,7 +278,7 @@
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
-   cursor: pointer;
+   /* cursor: pointer; */
    transition: filter 0.35s ease-in-out;
  }
  section.coidea-slider .slider-holder .slider .slider-item:hover {
@@ -324,7 +324,7 @@
    width: 32px;
    height: 32px;
    padding-bottom: 16px;
-   cursor: pointer;
+   /* cursor: pointer; */
  }
  section.coidea-slider .slider-nav span.slider-nav-btn img {
    position: relative;
